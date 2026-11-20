@@ -1,0 +1,9 @@
+numpy>=1.24,<2.0
+pandas>=2.0
+scipy>=1.10
+PyYAML>=6.0
+nibabel>=5.0
+SimpleITK>=2.3
+bert-score>=0.3.13
+huggingface_hub>=0.20
+openpyxl>=3.1

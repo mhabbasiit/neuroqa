@@ -1,0 +1,6771 @@
+[
+ {
+  "neuroqa_id": "IXI-00005",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00015",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00021",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00031",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00045",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00046",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00047",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00050",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "T1-weighted",
+   "FLAIR",
+   "T2-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00053",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "60-69",
+   "20-29",
+   "70+",
+   "30-39"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00059",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00069",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00087",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00105",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T2-weighted",
+   "FLAIR",
+   "T1-weighted",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00112",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00128",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00143",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T1-weighted",
+   "FLAIR",
+   "Diffusion-weighted",
+   "T2-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00148",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "FLAIR",
+   "Diffusion-weighted",
+   "T2-weighted",
+   "T1-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00169",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T1-weighted",
+   "FLAIR",
+   "T2-weighted",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00173",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00174",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00207",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T1-weighted",
+   "Diffusion-weighted",
+   "FLAIR",
+   "T2-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00212",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00219",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00224",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "30-39",
+  "options": [
+   "30-39",
+   "40-49",
+   "20-29",
+   "70+"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00227",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00238",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "T2-weighted",
+   "FLAIR",
+   "T1-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00273",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00275",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00284",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00289",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "50-59",
+   "30-39",
+   "40-49",
+   "70+"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00314",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00323",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "20-29",
+   "60-69",
+   "50-59",
+   "30-39"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00324",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00328",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00353",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00354",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00361",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "30-39",
+  "options": [
+   "50-59",
+   "30-39",
+   "20-29",
+   "60-69"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00377",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "30-39",
+  "options": [
+   "30-39",
+   "20-29",
+   "70+",
+   "60-69"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00382",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00390",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00461",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "20-29",
+  "options": [
+   "70+",
+   "30-39",
+   "20-29",
+   "40-49"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00464",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00476",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T1-weighted",
+   "Diffusion-weighted",
+   "T2-weighted",
+   "FLAIR"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00502",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00513",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00550",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00559",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00562",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "FLAIR",
+   "T1-weighted",
+   "T2-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00566",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00573",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00575",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "20-29",
+  "options": [
+   "70+",
+   "20-29",
+   "50-59",
+   "40-49"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00588",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "70+",
+   "30-39",
+   "40-49",
+   "60-69"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00590",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00609",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00618",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "30-39",
+  "options": [
+   "20-29",
+   "40-49",
+   "30-39",
+   "50-59"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00620",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00626",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00633",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00652",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00660",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "T2-weighted",
+   "T1-weighted",
+   "FLAIR",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00665",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00666",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "40-49",
+   "70+",
+   "20-29",
+   "50-59"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00670",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00689",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T2-weighted",
+   "T1-weighted",
+   "Diffusion-weighted",
+   "FLAIR"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00719",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00720",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "70+",
+   "20-29",
+   "60-69",
+   "50-59"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00735",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00739",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00740",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00752",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "T1-weighted",
+   "FLAIR",
+   "T2-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00754",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00758",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00767",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00769",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00771",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00775",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00776",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00806",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00817",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "T1-weighted",
+   "FLAIR",
+   "T2-weighted",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00843",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00854",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00860",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "20-29",
+  "options": [
+   "30-39",
+   "40-49",
+   "20-29",
+   "60-69"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00867",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00875",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T1-weighted",
+   "FLAIR",
+   "T2-weighted",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00879",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00880",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00938",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "T1-weighted",
+   "FLAIR",
+   "T2-weighted",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00967",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00977",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00985",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T1-weighted",
+   "FLAIR",
+   "T2-weighted",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-00989",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01022",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01035",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "FLAIR",
+   "Diffusion-weighted",
+   "T2-weighted",
+   "T1-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01040",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01043",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01050",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "30-39",
+  "options": [
+   "60-69",
+   "20-29",
+   "30-39",
+   "70+"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01066",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T1-weighted",
+   "T2-weighted",
+   "Diffusion-weighted",
+   "FLAIR"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01067",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01072",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01075",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01079",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01087",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01088",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "30-39",
+   "40-49",
+   "50-59",
+   "70+"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01110",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01111",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "FLAIR",
+   "T1-weighted",
+   "T2-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01123",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "40-49",
+   "60-69",
+   "30-39",
+   "70+"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01130",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01146",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01151",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01168",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "70+",
+  "options": [
+   "70+",
+   "60-69",
+   "30-39",
+   "40-49"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01175",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "30-39",
+  "options": [
+   "30-39",
+   "20-29",
+   "70+",
+   "40-49"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01185",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "T2-weighted",
+   "Diffusion-weighted",
+   "T1-weighted",
+   "FLAIR"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01200",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01220",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "20-29",
+  "options": [
+   "60-69",
+   "20-29",
+   "50-59",
+   "30-39"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01225",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01244",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01252",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01257",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "FLAIR",
+   "Diffusion-weighted",
+   "T2-weighted",
+   "T1-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01261",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01282",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01289",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "70+",
+   "40-49",
+   "50-59",
+   "20-29"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01291",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01292",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "20-29",
+  "options": [
+   "20-29",
+   "40-49",
+   "30-39",
+   "70+"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01298",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01303",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01316",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "T2-weighted",
+   "Diffusion-weighted",
+   "FLAIR",
+   "T1-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01317",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "T1-weighted",
+   "FLAIR",
+   "Diffusion-weighted",
+   "T2-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01321",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01370",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01377",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T1-weighted",
+   "T2-weighted",
+   "Diffusion-weighted",
+   "FLAIR"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01385",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01398",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "FLAIR",
+   "T2-weighted",
+   "T1-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01400",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T2-weighted",
+   "FLAIR",
+   "Diffusion-weighted",
+   "T1-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01428",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01438",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "FLAIR",
+   "Diffusion-weighted",
+   "T1-weighted",
+   "T2-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01447",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01451",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01455",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01456",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01471",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01474",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01486",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01493",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01497",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01527",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01528",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01554",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01565",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01568",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01588",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "70+",
+  "options": [
+   "60-69",
+   "70+",
+   "50-59",
+   "20-29"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01593",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01602",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01628",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "40-49",
+  "options": [
+   "30-39",
+   "20-29",
+   "50-59",
+   "40-49"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01634",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01653",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01683",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "60-69",
+   "40-49",
+   "30-39",
+   "50-59"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01688",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "20-29",
+  "options": [
+   "40-49",
+   "70+",
+   "30-39",
+   "20-29"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01711",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "FLAIR",
+   "T1-weighted",
+   "T2-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01730",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "30-39",
+  "options": [
+   "20-29",
+   "40-49",
+   "50-59",
+   "30-39"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01748",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01751",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "20-29",
+  "options": [
+   "70+",
+   "20-29",
+   "40-49",
+   "60-69"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01754",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "T1-weighted",
+   "FLAIR",
+   "Diffusion-weighted",
+   "T2-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01766",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01776",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01778",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01780",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "FLAIR",
+   "T2-weighted",
+   "Diffusion-weighted",
+   "T1-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01786",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "40-49",
+  "options": [
+   "40-49",
+   "20-29",
+   "60-69",
+   "70+"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01789",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T2-weighted",
+   "T1-weighted",
+   "FLAIR",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01794",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01816",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "20-29",
+  "options": [
+   "20-29",
+   "50-59",
+   "70+",
+   "30-39"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01830",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "70+",
+   "60-69",
+   "50-59",
+   "30-39"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01835",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01848",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T1-weighted",
+   "FLAIR",
+   "T2-weighted",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01853",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01854",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01860",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01866",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01885",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01897",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01899",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01918",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01919",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01923",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T2-weighted",
+   "Diffusion-weighted",
+   "T1-weighted",
+   "FLAIR"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01942",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01953",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "20-29",
+   "40-49",
+   "30-39",
+   "60-69"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01954",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01959",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01974",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01982",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01990",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-01996",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02006",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02022",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02023",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02030",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "30-39",
+  "options": [
+   "30-39",
+   "40-49",
+   "70+",
+   "20-29"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02035",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "FLAIR",
+   "T2-weighted",
+   "T1-weighted",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02052",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02060",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02066",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02074",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02076",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "40-49",
+  "options": [
+   "70+",
+   "40-49",
+   "60-69",
+   "30-39"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02080",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "20-29",
+   "30-39",
+   "50-59",
+   "60-69"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02089",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02094",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02118",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02126",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02134",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02145",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "T1-weighted",
+   "FLAIR",
+   "T2-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02146",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02149",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02150",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "T2-weighted",
+   "FLAIR",
+   "T1-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02151",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "20-29",
+   "40-49",
+   "60-69",
+   "50-59"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02156",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02165",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02172",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02175",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02184",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "70+",
+  "options": [
+   "40-49",
+   "60-69",
+   "50-59",
+   "70+"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02201",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02204",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02205",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02222",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "FLAIR",
+   "Diffusion-weighted",
+   "T1-weighted",
+   "T2-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02234",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "70+",
+   "20-29",
+   "60-69",
+   "40-49"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02261",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02268",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "T1-weighted",
+   "Diffusion-weighted",
+   "T2-weighted",
+   "FLAIR"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02273",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "T1-weighted",
+   "FLAIR",
+   "T2-weighted",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02284",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02306",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "T2-weighted",
+   "T1-weighted",
+   "FLAIR"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02314",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02323",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "30-39",
+   "60-69",
+   "50-59",
+   "20-29"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02325",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "T2-weighted",
+   "T1-weighted",
+   "FLAIR"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02326",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02331",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "FLAIR",
+   "Diffusion-weighted",
+   "T1-weighted",
+   "T2-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02343",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02347",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02366",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "60-69",
+   "40-49",
+   "50-59",
+   "70+"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02390",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "FLAIR",
+   "Diffusion-weighted",
+   "T2-weighted",
+   "T1-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02403",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "FLAIR",
+   "T1-weighted",
+   "Diffusion-weighted",
+   "T2-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02407",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02417",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02418",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02428",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02453",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T1-weighted",
+   "T2-weighted",
+   "FLAIR",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02472",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "70+",
+   "30-39",
+   "20-29",
+   "50-59"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02488",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "30-39",
+  "options": [
+   "20-29",
+   "30-39",
+   "40-49",
+   "60-69"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02490",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02504",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02507",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "20-29",
+  "options": [
+   "40-49",
+   "60-69",
+   "20-29",
+   "50-59"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02526",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02544",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02553",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "70+",
+  "options": [
+   "70+",
+   "20-29",
+   "60-69",
+   "40-49"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02556",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02557",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "40-49",
+  "options": [
+   "40-49",
+   "30-39",
+   "70+",
+   "60-69"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02564",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02579",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02591",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02617",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02619",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02627",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02629",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02631",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02654",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02656",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "T2-weighted",
+   "T1-weighted",
+   "FLAIR",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02664",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02667",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02672",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02674",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02702",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "70+",
+   "60-69",
+   "50-59",
+   "40-49"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02709",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02711",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "30-39",
+  "options": [
+   "20-29",
+   "60-69",
+   "70+",
+   "30-39"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02739",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02763",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "FLAIR",
+   "T2-weighted",
+   "T1-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02766",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "40-49",
+  "options": [
+   "20-29",
+   "30-39",
+   "50-59",
+   "40-49"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02777",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02805",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02819",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02844",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02870",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02880",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02884",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02885",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02913",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02918",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02920",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02934",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "FLAIR",
+   "T2-weighted",
+   "Diffusion-weighted",
+   "T1-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02938",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02949",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02951",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "30-39",
+  "options": [
+   "40-49",
+   "60-69",
+   "30-39",
+   "20-29"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02953",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "FLAIR",
+   "T2-weighted",
+   "Diffusion-weighted",
+   "T1-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02957",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "FLAIR",
+   "T2-weighted",
+   "T1-weighted",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02968",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "30-39",
+  "options": [
+   "60-69",
+   "40-49",
+   "50-59",
+   "30-39"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02972",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02973",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-02981",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03000",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "T1-weighted",
+   "FLAIR",
+   "T2-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03005",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "FLAIR",
+   "T2-weighted",
+   "T1-weighted",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03020",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03030",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "T1-weighted",
+   "FLAIR",
+   "T2-weighted"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03048",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "30-39",
+  "options": [
+   "50-59",
+   "70+",
+   "30-39",
+   "20-29"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03056",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "30-39",
+  "options": [
+   "30-39",
+   "50-59",
+   "40-49",
+   "60-69"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03063",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03068",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03072",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03087",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "70+",
+  "options": [
+   "40-49",
+   "30-39",
+   "60-69",
+   "70+"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03090",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03091",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "FLAIR",
+   "T2-weighted",
+   "T1-weighted",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03140",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "T2-weighted",
+   "FLAIR",
+   "T1-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03146",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03161",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "40-49",
+   "70+",
+   "60-69",
+   "50-59"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03182",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03190",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T1-weighted",
+  "options": [
+   "Diffusion-weighted",
+   "T1-weighted",
+   "T2-weighted",
+   "FLAIR"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03218",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03222",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "40-49",
+  "options": [
+   "40-49",
+   "30-39",
+   "70+",
+   "60-69"
+  ],
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03237",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "answer": "T2-weighted",
+  "options": [
+   "FLAIR",
+   "T2-weighted",
+   "T1-weighted",
+   "Diffusion-weighted"
+  ],
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03239",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03245",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03253",
+  "dataset": "IXI",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03259",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03264",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T1w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "IXI-03270",
+  "dataset": "IXI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "show_modality": "T2w",
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ }
+]

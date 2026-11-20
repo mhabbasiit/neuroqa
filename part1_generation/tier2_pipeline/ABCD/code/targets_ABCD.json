@@ -1,0 +1,498 @@
+{
+ "max_swaps": 20000000,
+ "subjects_per_split": {
+  "test_private": 596,
+  "test_public": 601,
+  "val": 603
+ },
+ "template_counts": {
+  "Are both hippocampi within expected volume range for this N-year-old subject?": 114,
+  "Are the structural findings consistent with normal development for a N year-old subject?": 63,
+  "Are the ventricles normal-sized in this scan?": 153,
+  "Are the ventricles relatively enlarged for a pediatric brain? (subject age: N)": 95,
+  "Are the ventricles relatively enlarged or normal in this pediatric scan? (subject age: N)": 434,
+  "Are the ventricles within normal size for a developing brain (N-N years old)?": 88,
+  "Are there any structural abnormalities that suggest atypical development for a N-year-old subject?": 56,
+  "Are there any structural findings in this scan consistent with below-average global cognitive function?": 291,
+  "Are white matter signal abnormalities present in this scan?": 145,
+  "Based on this scan, describe the expected fluid cognition level for this subject.": 253,
+  "Does the brain show structural deviations from expected developmental norms (subject age: N)?": 78,
+  "Does the subject's brain scan show structural findings associated with below-average global cognitive function?": 309,
+  "Does this brain scan from a pediatric subject (age: N) show structural features consistent with above-average cognitive performance?": 496,
+  "Does this brain scan from a pediatric subject (age: N) show structural features consistent with below-average cognitive performance?": 495,
+  "Does this scan show white matter signal abnormalities?": 106,
+  "Has the left hippocampal volume decreased compared to the scan N months prior (subject age: N)?": 187,
+  "Has the left hippocampal volume increased compared to the scan N months prior (subject age: N)?": 198,
+  "Has the subject's cognitive performance improved, remained stable, or declined compared to the visit N months prior based on the structural findings in this scan (subject age: N)?": 3,
+  "Has the whole brain volume decreased compared to the scan N months prior (subject age: N)?": 206,
+  "Has the whole brain volume increased compared to the scan N months prior (subject age: N)?": 220,
+  "Is hippocampal volume below expected range in this scan (subject age: N)?": 138,
+  "Is the average hippocampal volume above N mmN in this scan?": 138,
+  "Is the average hippocampal volume below N mmN in this scan?": 122,
+  "Is the entorhinal cortex thinner than expected for this N-year-old subject?": 96,
+  "Is the entorhinal cortical thickness within expected range for this N-year-old subject?": 92,
+  "Is the hippocampal volume below the expected range for this N-year-old subject?": 99,
+  "Is the hippocampal volume within the expected range for this N-year-old subject?": 97,
+  "Is the left accumbens smaller than the right accumbens in this scan?": 24,
+  "Is the left amygdala smaller than the right amygdala in this scan?": 18,
+  "Is the left lateral ventricle smaller than the right lateral ventricle in this scan?": 99,
+  "Is the left pallidum smaller than the right pallidum in this scan?": 16,
+  "Is the overall brain morphology within expected limits for this N-year-old developing brain?": 74,
+  "Is the right accumbens smaller than the left accumbens in this scan?": 36,
+  "Is the right amygdala smaller than the left amygdala in this scan?": 6,
+  "Is the right lateral ventricle smaller than the left lateral ventricle in this scan?": 107,
+  "Is the right pallidum smaller than the left pallidum in this scan?": 16,
+  "Is the total brain volume greater than N mm^N in this scan?": 132,
+  "Is the total brain volume less than N mm^N in this scan?": 139,
+  "Is the ventricular-to-brain volume ratio greater than N% in this scan?": 146,
+  "Is the ventricular-to-brain volume ratio less than N% in this scan?": 135,
+  "Is the white matter signal normal in this scan?": 105,
+  "Is this brain scan from a child with above average cognitive performance?": 499,
+  "Is this subject female?": 130,
+  "Is this subject male?": 128,
+  "Is ventricular enlargement present in this scan?": 152,
+  "What age range does this subject likely belong to?": 506,
+  "What is the cognitive trajectory of the subject's brain compared to the visit N months prior (subject age: N)?": 3,
+  "What is the most prominent structural finding in this brain scan?": 498,
+  "What is the severity of white matter changes in this scan?": 238,
+  "What is the sex of this subject?": 506,
+  "What range best describes the intracranial volume of this scan?": 629,
+  "Which description best matches the structural findings in this scan?": 498,
+  "Which of the following findings is NOT present in this scan?": 386,
+  "Which of the following findings is present in this scan?": 273,
+  "Which side has a smaller accumbens volume in this brain scan?": 174,
+  "Which side has a smaller amygdala volume in this brain scan?": 52,
+  "Which side has a smaller caudate volume in this brain scan?": 7,
+  "Which side has a smaller hippocampus volume in this brain scan?": 21,
+  "Which side has a smaller lateral ventricle volume in this brain scan?": 273,
+  "Which side has a smaller pallidum volume in this brain scan?": 82,
+  "Which side has a smaller putamen volume in this brain scan?": 11,
+  "Which side has a smaller thalamus volume in this brain scan?": 6,
+  "Which subcortical structure in this scan shows the most volume deviation from expected range?": 434
+ },
+ "template_split_counts": {
+  "test_private": {
+   "Are both hippocampi within expected volume range for this N-year-old subject?": 12,
+   "Are the structural findings consistent with normal development for a N year-old subject?": 6,
+   "Are the ventricles normal-sized in this scan?": 8,
+   "Are the ventricles relatively enlarged for a pediatric brain? (subject age: N)": 5,
+   "Are the ventricles relatively enlarged or normal in this pediatric scan? (subject age: N)": 45,
+   "Are the ventricles within normal size for a developing brain (N-N years old)?": 6,
+   "Are there any structural abnormalities that suggest atypical development for a N-year-old subject?": 6,
+   "Are there any structural findings in this scan consistent with below-average global cognitive function?": 19,
+   "Are white matter signal abnormalities present in this scan?": 13,
+   "Based on this scan, describe the expected fluid cognition level for this subject.": 26,
+   "Does the brain show structural deviations from expected developmental norms (subject age: N)?": 6,
+   "Does the subject's brain scan show structural findings associated with below-average global cognitive function?": 22,
+   "Does this brain scan from a pediatric subject (age: N) show structural features consistent with above-average cognitive performance?": 55,
+   "Does this brain scan from a pediatric subject (age: N) show structural features consistent with below-average cognitive performance?": 57,
+   "Does this scan show white matter signal abnormalities?": 20,
+   "Has the left hippocampal volume decreased compared to the scan N months prior (subject age: N)?": 21,
+   "Has the left hippocampal volume increased compared to the scan N months prior (subject age: N)?": 13,
+   "Has the whole brain volume decreased compared to the scan N months prior (subject age: N)?": 15,
+   "Has the whole brain volume increased compared to the scan N months prior (subject age: N)?": 19,
+   "Is hippocampal volume below expected range in this scan (subject age: N)?": 14,
+   "Is the average hippocampal volume above N mmN in this scan?": 8,
+   "Is the average hippocampal volume below N mmN in this scan?": 10,
+   "Is the entorhinal cortex thinner than expected for this N-year-old subject?": 8,
+   "Is the entorhinal cortical thickness within expected range for this N-year-old subject?": 9,
+   "Is the hippocampal volume below the expected range for this N-year-old subject?": 12,
+   "Is the hippocampal volume within the expected range for this N-year-old subject?": 5,
+   "Is the left accumbens smaller than the right accumbens in this scan?": 2,
+   "Is the left amygdala smaller than the right amygdala in this scan?": 1,
+   "Is the left lateral ventricle smaller than the right lateral ventricle in this scan?": 14,
+   "Is the left pallidum smaller than the right pallidum in this scan?": 1,
+   "Is the overall brain morphology within expected limits for this N-year-old developing brain?": 2,
+   "Is the right accumbens smaller than the left accumbens in this scan?": 2,
+   "Is the right amygdala smaller than the left amygdala in this scan?": 1,
+   "Is the right lateral ventricle smaller than the left lateral ventricle in this scan?": 15,
+   "Is the right pallidum smaller than the left pallidum in this scan?": 2,
+   "Is the total brain volume greater than N mm^N in this scan?": 15,
+   "Is the total brain volume less than N mm^N in this scan?": 16,
+   "Is the ventricular-to-brain volume ratio greater than N% in this scan?": 13,
+   "Is the ventricular-to-brain volume ratio less than N% in this scan?": 18,
+   "Is the white matter signal normal in this scan?": 14,
+   "Is this brain scan from a child with above average cognitive performance?": 46,
+   "Is this subject female?": 12,
+   "Is this subject male?": 12,
+   "Is ventricular enlargement present in this scan?": 15,
+   "What age range does this subject likely belong to?": 59,
+   "What is the most prominent structural finding in this brain scan?": 43,
+   "What is the severity of white matter changes in this scan?": 22,
+   "What is the sex of this subject?": 50,
+   "What range best describes the intracranial volume of this scan?": 68,
+   "Which description best matches the structural findings in this scan?": 43,
+   "Which of the following findings is NOT present in this scan?": 43,
+   "Which of the following findings is present in this scan?": 30,
+   "Which side has a smaller accumbens volume in this brain scan?": 21,
+   "Which side has a smaller amygdala volume in this brain scan?": 3,
+   "Which side has a smaller caudate volume in this brain scan?": 1,
+   "Which side has a smaller hippocampus volume in this brain scan?": 3,
+   "Which side has a smaller lateral ventricle volume in this brain scan?": 26,
+   "Which side has a smaller pallidum volume in this brain scan?": 6,
+   "Which side has a smaller putamen volume in this brain scan?": 2,
+   "Which side has a smaller thalamus volume in this brain scan?": 1,
+   "Which subcortical structure in this scan shows the most volume deviation from expected range?": 45
+  },
+  "test_public": {
+   "Are both hippocampi within expected volume range for this N-year-old subject?": 9,
+   "Are the structural findings consistent with normal development for a N year-old subject?": 7,
+   "Are the ventricles normal-sized in this scan?": 12,
+   "Are the ventricles relatively enlarged for a pediatric brain? (subject age: N)": 8,
+   "Are the ventricles relatively enlarged or normal in this pediatric scan? (subject age: N)": 45,
+   "Are the ventricles within normal size for a developing brain (N-N years old)?": 7,
+   "Are there any structural abnormalities that suggest atypical development for a N-year-old subject?": 2,
+   "Are there any structural findings in this scan consistent with below-average global cognitive function?": 25,
+   "Are white matter signal abnormalities present in this scan?": 21,
+   "Based on this scan, describe the expected fluid cognition level for this subject.": 27,
+   "Does the brain show structural deviations from expected developmental norms (subject age: N)?": 11,
+   "Does the subject's brain scan show structural findings associated with below-average global cognitive function?": 36,
+   "Does this brain scan from a pediatric subject (age: N) show structural features consistent with above-average cognitive performance?": 46,
+   "Does this brain scan from a pediatric subject (age: N) show structural features consistent with below-average cognitive performance?": 41,
+   "Does this scan show white matter signal abnormalities?": 9,
+   "Has the left hippocampal volume decreased compared to the scan N months prior (subject age: N)?": 16,
+   "Has the left hippocampal volume increased compared to the scan N months prior (subject age: N)?": 18,
+   "Has the subject's cognitive performance improved, remained stable, or declined compared to the visit N months prior based on the structural findings in this scan (subject age: N)?": 2,
+   "Has the whole brain volume decreased compared to the scan N months prior (subject age: N)?": 24,
+   "Has the whole brain volume increased compared to the scan N months prior (subject age: N)?": 19,
+   "Is hippocampal volume below expected range in this scan (subject age: N)?": 15,
+   "Is the average hippocampal volume above N mmN in this scan?": 17,
+   "Is the average hippocampal volume below N mmN in this scan?": 8,
+   "Is the entorhinal cortex thinner than expected for this N-year-old subject?": 10,
+   "Is the entorhinal cortical thickness within expected range for this N-year-old subject?": 7,
+   "Is the hippocampal volume below the expected range for this N-year-old subject?": 5,
+   "Is the hippocampal volume within the expected range for this N-year-old subject?": 15,
+   "Is the left accumbens smaller than the right accumbens in this scan?": 2,
+   "Is the left amygdala smaller than the right amygdala in this scan?": 5,
+   "Is the left lateral ventricle smaller than the right lateral ventricle in this scan?": 7,
+   "Is the left pallidum smaller than the right pallidum in this scan?": 2,
+   "Is the overall brain morphology within expected limits for this N-year-old developing brain?": 6,
+   "Is the right accumbens smaller than the left accumbens in this scan?": 6,
+   "Is the right amygdala smaller than the left amygdala in this scan?": 2,
+   "Is the right lateral ventricle smaller than the left lateral ventricle in this scan?": 14,
+   "Is the right pallidum smaller than the left pallidum in this scan?": 2,
+   "Is the total brain volume greater than N mm^N in this scan?": 10,
+   "Is the total brain volume less than N mm^N in this scan?": 12,
+   "Is the ventricular-to-brain volume ratio greater than N% in this scan?": 9,
+   "Is the ventricular-to-brain volume ratio less than N% in this scan?": 12,
+   "Is the white matter signal normal in this scan?": 8,
+   "Is this brain scan from a child with above average cognitive performance?": 59,
+   "Is this subject female?": 15,
+   "Is this subject male?": 15,
+   "Is ventricular enlargement present in this scan?": 14,
+   "What age range does this subject likely belong to?": 46,
+   "What is the cognitive trajectory of the subject's brain compared to the visit N months prior (subject age: N)?": 2,
+   "What is the most prominent structural finding in this brain scan?": 45,
+   "What is the severity of white matter changes in this scan?": 26,
+   "What is the sex of this subject?": 55,
+   "What range best describes the intracranial volume of this scan?": 62,
+   "Which description best matches the structural findings in this scan?": 45,
+   "Which of the following findings is NOT present in this scan?": 37,
+   "Which of the following findings is present in this scan?": 30,
+   "Which side has a smaller accumbens volume in this brain scan?": 14,
+   "Which side has a smaller amygdala volume in this brain scan?": 5,
+   "Which side has a smaller caudate volume in this brain scan?": 2,
+   "Which side has a smaller hippocampus volume in this brain scan?": 4,
+   "Which side has a smaller lateral ventricle volume in this brain scan?": 20,
+   "Which side has a smaller pallidum volume in this brain scan?": 8,
+   "Which side has a smaller putamen volume in this brain scan?": 3,
+   "Which side has a smaller thalamus volume in this brain scan?": 1,
+   "Which subcortical structure in this scan shows the most volume deviation from expected range?": 45
+  },
+  "train": {
+   "Are both hippocampi within expected volume range for this N-year-old subject?": 80,
+   "Are the structural findings consistent with normal development for a N year-old subject?": 43,
+   "Are the ventricles normal-sized in this scan?": 117,
+   "Are the ventricles relatively enlarged for a pediatric brain? (subject age: N)": 69,
+   "Are the ventricles relatively enlarged or normal in this pediatric scan? (subject age: N)": 320,
+   "Are the ventricles within normal size for a developing brain (N-N years old)?": 63,
+   "Are there any structural abnormalities that suggest atypical development for a N-year-old subject?": 38,
+   "Are there any structural findings in this scan consistent with below-average global cognitive function?": 210,
+   "Are white matter signal abnormalities present in this scan?": 98,
+   "Based on this scan, describe the expected fluid cognition level for this subject.": 171,
+   "Does the brain show structural deviations from expected developmental norms (subject age: N)?": 53,
+   "Does the subject's brain scan show structural findings associated with below-average global cognitive function?": 223,
+   "Does this brain scan from a pediatric subject (age: N) show structural features consistent with above-average cognitive performance?": 347,
+   "Does this brain scan from a pediatric subject (age: N) show structural features consistent with below-average cognitive performance?": 347,
+   "Does this scan show white matter signal abnormalities?": 70,
+   "Has the left hippocampal volume decreased compared to the scan N months prior (subject age: N)?": 129,
+   "Has the left hippocampal volume increased compared to the scan N months prior (subject age: N)?": 146,
+   "Has the subject's cognitive performance improved, remained stable, or declined compared to the visit N months prior based on the structural findings in this scan (subject age: N)?": 1,
+   "Has the whole brain volume decreased compared to the scan N months prior (subject age: N)?": 150,
+   "Has the whole brain volume increased compared to the scan N months prior (subject age: N)?": 156,
+   "Is hippocampal volume below expected range in this scan (subject age: N)?": 93,
+   "Is the average hippocampal volume above N mmN in this scan?": 99,
+   "Is the average hippocampal volume below N mmN in this scan?": 90,
+   "Is the entorhinal cortex thinner than expected for this N-year-old subject?": 67,
+   "Is the entorhinal cortical thickness within expected range for this N-year-old subject?": 64,
+   "Is the hippocampal volume below the expected range for this N-year-old subject?": 77,
+   "Is the hippocampal volume within the expected range for this N-year-old subject?": 66,
+   "Is the left accumbens smaller than the right accumbens in this scan?": 18,
+   "Is the left amygdala smaller than the right amygdala in this scan?": 9,
+   "Is the left lateral ventricle smaller than the right lateral ventricle in this scan?": 64,
+   "Is the left pallidum smaller than the right pallidum in this scan?": 11,
+   "Is the overall brain morphology within expected limits for this N-year-old developing brain?": 56,
+   "Is the right accumbens smaller than the left accumbens in this scan?": 25,
+   "Is the right amygdala smaller than the left amygdala in this scan?": 3,
+   "Is the right lateral ventricle smaller than the left lateral ventricle in this scan?": 74,
+   "Is the right pallidum smaller than the left pallidum in this scan?": 12,
+   "Is the total brain volume greater than N mm^N in this scan?": 92,
+   "Is the total brain volume less than N mm^N in this scan?": 101,
+   "Is the ventricular-to-brain volume ratio greater than N% in this scan?": 111,
+   "Is the ventricular-to-brain volume ratio less than N% in this scan?": 92,
+   "Is the white matter signal normal in this scan?": 70,
+   "Is this brain scan from a child with above average cognitive performance?": 359,
+   "Is this subject female?": 90,
+   "Is this subject male?": 86,
+   "Is ventricular enlargement present in this scan?": 106,
+   "What age range does this subject likely belong to?": 358,
+   "What is the cognitive trajectory of the subject's brain compared to the visit N months prior (subject age: N)?": 1,
+   "What is the most prominent structural finding in this brain scan?": 368,
+   "What is the severity of white matter changes in this scan?": 171,
+   "What is the sex of this subject?": 349,
+   "What range best describes the intracranial volume of this scan?": 453,
+   "Which description best matches the structural findings in this scan?": 368,
+   "Which of the following findings is NOT present in this scan?": 270,
+   "Which of the following findings is present in this scan?": 174,
+   "Which side has a smaller accumbens volume in this brain scan?": 120,
+   "Which side has a smaller amygdala volume in this brain scan?": 38,
+   "Which side has a smaller caudate volume in this brain scan?": 3,
+   "Which side has a smaller hippocampus volume in this brain scan?": 14,
+   "Which side has a smaller lateral ventricle volume in this brain scan?": 196,
+   "Which side has a smaller pallidum volume in this brain scan?": 60,
+   "Which side has a smaller putamen volume in this brain scan?": 4,
+   "Which side has a smaller thalamus volume in this brain scan?": 3,
+   "Which subcortical structure in this scan shows the most volume deviation from expected range?": 320
+  },
+  "val": {
+   "Are both hippocampi within expected volume range for this N-year-old subject?": 13,
+   "Are the structural findings consistent with normal development for a N year-old subject?": 7,
+   "Are the ventricles normal-sized in this scan?": 16,
+   "Are the ventricles relatively enlarged for a pediatric brain? (subject age: N)": 13,
+   "Are the ventricles relatively enlarged or normal in this pediatric scan? (subject age: N)": 24,
+   "Are the ventricles within normal size for a developing brain (N-N years old)?": 12,
+   "Are there any structural abnormalities that suggest atypical development for a N-year-old subject?": 10,
+   "Are there any structural findings in this scan consistent with below-average global cognitive function?": 37,
+   "Are white matter signal abnormalities present in this scan?": 13,
+   "Based on this scan, describe the expected fluid cognition level for this subject.": 29,
+   "Does the brain show structural deviations from expected developmental norms (subject age: N)?": 8,
+   "Does the subject's brain scan show structural findings associated with below-average global cognitive function?": 28,
+   "Does this brain scan from a pediatric subject (age: N) show structural features consistent with above-average cognitive performance?": 48,
+   "Does this brain scan from a pediatric subject (age: N) show structural features consistent with below-average cognitive performance?": 50,
+   "Does this scan show white matter signal abnormalities?": 7,
+   "Has the left hippocampal volume decreased compared to the scan N months prior (subject age: N)?": 21,
+   "Has the left hippocampal volume increased compared to the scan N months prior (subject age: N)?": 21,
+   "Has the whole brain volume decreased compared to the scan N months prior (subject age: N)?": 17,
+   "Has the whole brain volume increased compared to the scan N months prior (subject age: N)?": 26,
+   "Is hippocampal volume below expected range in this scan (subject age: N)?": 16,
+   "Is the average hippocampal volume above N mmN in this scan?": 14,
+   "Is the average hippocampal volume below N mmN in this scan?": 14,
+   "Is the entorhinal cortex thinner than expected for this N-year-old subject?": 11,
+   "Is the entorhinal cortical thickness within expected range for this N-year-old subject?": 12,
+   "Is the hippocampal volume below the expected range for this N-year-old subject?": 5,
+   "Is the hippocampal volume within the expected range for this N-year-old subject?": 11,
+   "Is the left accumbens smaller than the right accumbens in this scan?": 2,
+   "Is the left amygdala smaller than the right amygdala in this scan?": 3,
+   "Is the left lateral ventricle smaller than the right lateral ventricle in this scan?": 14,
+   "Is the left pallidum smaller than the right pallidum in this scan?": 2,
+   "Is the overall brain morphology within expected limits for this N-year-old developing brain?": 10,
+   "Is the right accumbens smaller than the left accumbens in this scan?": 3,
+   "Is the right lateral ventricle smaller than the left lateral ventricle in this scan?": 4,
+   "Is the total brain volume greater than N mm^N in this scan?": 15,
+   "Is the total brain volume less than N mm^N in this scan?": 10,
+   "Is the ventricular-to-brain volume ratio greater than N% in this scan?": 13,
+   "Is the ventricular-to-brain volume ratio less than N% in this scan?": 13,
+   "Is the white matter signal normal in this scan?": 13,
+   "Is this brain scan from a child with above average cognitive performance?": 35,
+   "Is this subject female?": 13,
+   "Is this subject male?": 15,
+   "Is ventricular enlargement present in this scan?": 17,
+   "What age range does this subject likely belong to?": 43,
+   "What is the most prominent structural finding in this brain scan?": 42,
+   "What is the severity of white matter changes in this scan?": 19,
+   "What is the sex of this subject?": 52,
+   "What range best describes the intracranial volume of this scan?": 46,
+   "Which description best matches the structural findings in this scan?": 42,
+   "Which of the following findings is NOT present in this scan?": 36,
+   "Which of the following findings is present in this scan?": 39,
+   "Which side has a smaller accumbens volume in this brain scan?": 19,
+   "Which side has a smaller amygdala volume in this brain scan?": 6,
+   "Which side has a smaller caudate volume in this brain scan?": 1,
+   "Which side has a smaller lateral ventricle volume in this brain scan?": 31,
+   "Which side has a smaller pallidum volume in this brain scan?": 8,
+   "Which side has a smaller putamen volume in this brain scan?": 2,
+   "Which side has a smaller thalamus volume in this brain scan?": 1,
+   "Which subcortical structure in this scan shows the most volume deviation from expected range?": 24
+  }
+ },
+ "yes_no_answers": {
+  "Are both hippocampi within expected volume range for this N-year-old subject?": {
+   "No": 57,
+   "Yes": 57
+  },
+  "Are the structural findings consistent with normal development for a N year-old subject?": {
+   "No": 32,
+   "Yes": 31
+  },
+  "Are the ventricles normal-sized in this scan?": {
+   "No": 76,
+   "Yes": 77
+  },
+  "Are the ventricles relatively enlarged for a pediatric brain? (subject age: N)": {
+   "No": 48,
+   "Yes": 47
+  },
+  "Are the ventricles within normal size for a developing brain (N-N years old)?": {
+   "No": 44,
+   "Yes": 44
+  },
+  "Are there any structural abnormalities that suggest atypical development for a N-year-old subject?": {
+   "No": 28,
+   "Yes": 28
+  },
+  "Are there any structural findings in this scan consistent with below-average global cognitive function?": {
+   "No": 146,
+   "Yes": 145
+  },
+  "Are white matter signal abnormalities present in this scan?": {
+   "No": 73,
+   "Yes": 72
+  },
+  "Does the brain show structural deviations from expected developmental norms (subject age: N)?": {
+   "No": 39,
+   "Yes": 39
+  },
+  "Does the subject's brain scan show structural findings associated with below-average global cognitive function?": {
+   "No": 155,
+   "Yes": 154
+  },
+  "Does this brain scan from a pediatric subject (age: N) show structural features consistent with above-average cognitive performance?": {
+   "No": 247,
+   "Yes": 249
+  },
+  "Does this brain scan from a pediatric subject (age: N) show structural features consistent with below-average cognitive performance?": {
+   "No": 247,
+   "Yes": 248
+  },
+  "Does this scan show white matter signal abnormalities?": {
+   "No": 53,
+   "Yes": 53
+  },
+  "Has the left hippocampal volume decreased compared to the scan N months prior (subject age: N)?": {
+   "No": 93,
+   "Yes": 94
+  },
+  "Has the left hippocampal volume increased compared to the scan N months prior (subject age: N)?": {
+   "No": 99,
+   "Yes": 99
+  },
+  "Has the whole brain volume decreased compared to the scan N months prior (subject age: N)?": {
+   "No": 103,
+   "Yes": 103
+  },
+  "Has the whole brain volume increased compared to the scan N months prior (subject age: N)?": {
+   "No": 109,
+   "Yes": 111
+  },
+  "Is hippocampal volume below expected range in this scan (subject age: N)?": {
+   "No": 69,
+   "Yes": 69
+  },
+  "Is the average hippocampal volume above N mmN in this scan?": {
+   "No": 69,
+   "Yes": 69
+  },
+  "Is the average hippocampal volume below N mmN in this scan?": {
+   "No": 61,
+   "Yes": 61
+  },
+  "Is the entorhinal cortex thinner than expected for this N-year-old subject?": {
+   "No": 48,
+   "Yes": 48
+  },
+  "Is the entorhinal cortical thickness within expected range for this N-year-old subject?": {
+   "No": 46,
+   "Yes": 46
+  },
+  "Is the hippocampal volume below the expected range for this N-year-old subject?": {
+   "No": 50,
+   "Yes": 49
+  },
+  "Is the hippocampal volume within the expected range for this N-year-old subject?": {
+   "No": 48,
+   "Yes": 49
+  },
+  "Is the left accumbens smaller than the right accumbens in this scan?": {
+   "No": 12,
+   "Yes": 12
+  },
+  "Is the left amygdala smaller than the right amygdala in this scan?": {
+   "No": 9,
+   "Yes": 9
+  },
+  "Is the left lateral ventricle smaller than the right lateral ventricle in this scan?": {
+   "No": 50,
+   "Yes": 49
+  },
+  "Is the left pallidum smaller than the right pallidum in this scan?": {
+   "No": 8,
+   "Yes": 8
+  },
+  "Is the overall brain morphology within expected limits for this N-year-old developing brain?": {
+   "No": 37,
+   "Yes": 37
+  },
+  "Is the right accumbens smaller than the left accumbens in this scan?": {
+   "No": 18,
+   "Yes": 18
+  },
+  "Is the right amygdala smaller than the left amygdala in this scan?": {
+   "No": 3,
+   "Yes": 3
+  },
+  "Is the right lateral ventricle smaller than the left lateral ventricle in this scan?": {
+   "No": 53,
+   "Yes": 54
+  },
+  "Is the right pallidum smaller than the left pallidum in this scan?": {
+   "No": 8,
+   "Yes": 8
+  },
+  "Is the total brain volume greater than N mm^N in this scan?": {
+   "No": 66,
+   "Yes": 66
+  },
+  "Is the total brain volume less than N mm^N in this scan?": {
+   "No": 70,
+   "Yes": 69
+  },
+  "Is the ventricular-to-brain volume ratio greater than N% in this scan?": {
+   "No": 73,
+   "Yes": 73
+  },
+  "Is the ventricular-to-brain volume ratio less than N% in this scan?": {
+   "No": 67,
+   "Yes": 68
+  },
+  "Is the white matter signal normal in this scan?": {
+   "No": 53,
+   "Yes": 52
+  },
+  "Is this brain scan from a child with above average cognitive performance?": {
+   "No": 250,
+   "Yes": 249
+  },
+  "Is this subject female?": {
+   "No": 65,
+   "Yes": 65
+  },
+  "Is this subject male?": {
+   "No": 64,
+   "Yes": 64
+  },
+  "Is ventricular enlargement present in this scan?": {
+   "No": 76,
+   "Yes": 76
+  }
+ }
+}

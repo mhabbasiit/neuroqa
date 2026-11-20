@@ -1,0 +1,58 @@
+# ============================================================
+# DUA SAFETY — never commit subject IDs from restricted datasets
+# ============================================================
+# Generated QA files (contain DUA subject_ids)
+*all_qa*.json
+neuroqa_*.json
+*_qa_final.json
+*_qa_generated.json
+*_qa_raw_all.json
+*_qa_merged.csv
+*_qa_base.csv
+*_v4*.json
+
+# Per-dataset outputs (contain DUA-derived data)
+outputs/
+**/outputs/
+*_neuroqa_*.csv
+*_neuroqa_*.json
+adni_qa_*.json
+adni_qa_*.csv
+abcd_qa_*.*
+adni_neuroqa_*.csv
+*_paper_tables.tex
+
+# Intermediate validation files
+validation_*.csv
+validation_*.json
+validation_*.xlsx
+neuroqa_validation_*.xlsx
+
+# ============================================================
+# Common
+# ============================================================
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.venv/
+venv/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temp
+/tmp/
+*.tmp
+*.bak
+
+# IDE
+.vscode/
+.idea/

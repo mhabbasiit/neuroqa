@@ -1,0 +1,5143 @@
+[
+ {
+  "neuroqa_id": "BMEN-00023",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00029",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00030",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "A small lesion with isointense signal is present beneath the left occipital bone plate on T1-weighted images, measuring approximately 12*10*14mm. There is no associated edema, and the midline structur",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00062",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00069",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00095",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00107",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00109",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00112",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "moderate",
+   "mild",
+   "severe",
+   "none"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00116",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00128",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "moderate",
+   "severe",
+   "mild",
+   "none"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00142",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "frontal",
+   "parietal",
+   "temporal",
+   "occipital"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00145",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00156",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "signal characteristics",
+  "options": [
+   "signal characteristics",
+   "lesion location",
+   "edema pattern",
+   "enhancement pattern"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00157",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00171",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00172",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00181",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00206",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00207",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "isointense",
+  "options": [
+   "hyperintense",
+   "mixed",
+   "hypointense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00212",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00213",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00215",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00217",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the temporal lobe?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00240",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "There is an isointense mass-like lesion with well-defined boundaries approximately measuring 19*31*26mm located below the cranial plate in the left frontal area on the T1-weighted imaging. There is no",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00245",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00247",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "signal characteristics",
+  "options": [
+   "lesion location",
+   "enhancement pattern",
+   "edema pattern",
+   "signal characteristics"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00251",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "moderate",
+   "mild",
+   "none",
+   "severe"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00263",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "signal characteristics",
+  "options": [
+   "edema pattern",
+   "enhancement pattern",
+   "lesion location",
+   "signal characteristics"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00279",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "temporal",
+  "options": [
+   "frontal",
+   "parietal",
+   "occipital",
+   "temporal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00284",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00291",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "isointense",
+  "options": [
+   "mixed",
+   "hypointense",
+   "isointense",
+   "hyperintense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00294",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the temporal lobe?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00296",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "isointense",
+  "options": [
+   "hypointense",
+   "isointense",
+   "mixed",
+   "hyperintense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00307",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "signal characteristics",
+  "options": [
+   "lesion location",
+   "enhancement pattern",
+   "edema pattern",
+   "signal characteristics"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00327",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00329",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "edema pattern",
+  "options": [
+   "enhancement pattern",
+   "lesion location",
+   "signal characteristics",
+   "edema pattern"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00331",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "edema pattern",
+  "options": [
+   "edema pattern",
+   "lesion location",
+   "signal characteristics",
+   "enhancement pattern"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00339",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "mixed",
+   "hyperintense",
+   "isointense",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00346",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00348",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is the perilesional edema extensive?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00356",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "In the right frontal lobe, there is a mass-like lesion exhibiting an isointense signal, affecting adjacent brain structures. The lesion measures approximately 78*97*84 mm, with obvious adjacent edema.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00381",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00390",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00409",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "isointense",
+  "options": [
+   "hyperintense",
+   "isointense",
+   "hypointense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00411",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00421",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00434",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "temporal",
+  "options": [
+   "temporal",
+   "parietal",
+   "occipital",
+   "frontal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00438",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "none",
+   "mild",
+   "moderate",
+   "severe"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00454",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "mixed",
+   "isointense",
+   "hyperintense",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00479",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "falx",
+  "options": [
+   "parietal",
+   "falx",
+   "occipital",
+   "temporal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00482",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00550",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "A mass-like lesion with isointense signal below the right frontal skull plate is observed on T1-weighted imaging, which measures approximately 60*61*60 mm in size. The lesion causes mild edema in the ",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00556",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00558",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is the perilesional edema extensive?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00573",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: signal characteristics, enhancement pattern, lesion location.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00582",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "Under the right temporal bone plate, there is a lesion with an isointense signal on the T1-weighted sequence, measuring approximately 19*20*26 mm.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00585",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00615",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "signal characteristics",
+  "options": [
+   "edema pattern",
+   "enhancement pattern",
+   "signal characteristics",
+   "lesion location"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00621",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00633",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "In the right cerebellopontine angle region, there is a mass with iso-signal intensity measuring approximately 31*33*37 mm. No midline shift is observed.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00645",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00661",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00668",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00674",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: signal characteristics, enhancement pattern, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00679",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "signal characteristics",
+  "options": [
+   "signal characteristics",
+   "enhancement pattern",
+   "edema pattern",
+   "lesion location"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00686",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "Beneath the right frontal cranial plate, there is a small group-like lesion with isointense signal characteristics, measuring about 15*14*16mm.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00697",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "signal characteristics",
+  "options": [
+   "signal characteristics",
+   "edema pattern",
+   "enhancement pattern",
+   "lesion location"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00703",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is the perilesional edema extensive?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00710",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "The lesion located below the cranial plate on the right temporal side shows an iso-signal intensity, with dimensions of approximately 51*53*58 mm. There is mild edema around the tumor. There is a slig",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00712",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "mixed",
+   "hypointense",
+   "hyperintense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00716",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00725",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "moderate",
+   "severe",
+   "none",
+   "mild"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00755",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00780",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral temporal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00790",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: signal characteristics, enhancement pattern, lesion location.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00793",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00799",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "edema pattern",
+  "options": [
+   "edema pattern",
+   "signal characteristics",
+   "lesion location",
+   "enhancement pattern"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00805",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00815",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00835",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "edema pattern",
+  "options": [
+   "lesion location",
+   "edema pattern",
+   "signal characteristics",
+   "enhancement pattern"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00842",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00850",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral temporal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00861",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "posterior fossa",
+  "options": [
+   "parietal",
+   "occipital",
+   "posterior fossa",
+   "temporal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00863",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the temporal lobe?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00872",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00891",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "The mass-like lesion adjacent to the falx cerebri on the right frontal parietal region shows isointense signal approximately 40*42*41 mm in size; also the right frontal region adjacent to the falx cer",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00896",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00897",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00923",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is the perilesional edema extensive?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00924",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00935",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "severe",
+  "options": [
+   "moderate",
+   "severe",
+   "none",
+   "mild"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00937",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "signal characteristics",
+  "options": [
+   "signal characteristics",
+   "enhancement pattern",
+   "edema pattern",
+   "lesion location"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00938",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is the perilesional edema extensive?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00959",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00971",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00972",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00973",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00976",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "In the left cranial base, a mass with an isointense signal is noted, measuring approximately 46*39*35 mm, which compresses the left cerebellar hemisphere without causing a midline shift or affecting s",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00980",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "edema pattern",
+  "options": [
+   "lesion location",
+   "signal characteristics",
+   "enhancement pattern",
+   "edema pattern"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00981",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "edema pattern",
+  "options": [
+   "signal characteristics",
+   "edema pattern",
+   "lesion location",
+   "enhancement pattern"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00982",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "occipital",
+   "temporal",
+   "parietal",
+   "frontal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00988",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-00994",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "isointense",
+   "hypointense",
+   "hyperintense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01012",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "edema pattern",
+  "options": [
+   "signal characteristics",
+   "edema pattern",
+   "lesion location",
+   "enhancement pattern"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01014",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01021",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01023",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "severe",
+  "options": [
+   "moderate",
+   "none",
+   "severe",
+   "mild"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01024",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01028",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01049",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "none",
+   "moderate",
+   "severe",
+   "mild"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01076",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01081",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01094",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01107",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "mild",
+   "severe",
+   "none",
+   "moderate"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01116",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: signal characteristics, enhancement pattern, lesion location.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01120",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01122",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "hypointense",
+   "mixed",
+   "hyperintense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01128",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01149",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "In the left frontal lobe, there is a lesion presenting with iso to low signal intensity. Adjacent to the lesion's border, a cerebrospinal fluid cleft and edema are visible. The midline structures show",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01152",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "signal characteristics",
+  "options": [
+   "lesion location",
+   "enhancement pattern",
+   "edema pattern",
+   "signal characteristics"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01162",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "isointense",
+  "options": [
+   "isointense",
+   "mixed",
+   "hyperintense",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01166",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01192",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "signal characteristics",
+  "options": [
+   "lesion location",
+   "enhancement pattern",
+   "signal characteristics",
+   "edema pattern"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01213",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "moderate",
+   "mild",
+   "none",
+   "severe"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01219",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "The lesion located in the cerebral longitudinal fissure appears iso-intense on T1-weighted sequences, with clearly defined boundaries, without observable edema, and without affecting the surrounding b",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01220",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral parietal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01223",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "severe",
+   "mild",
+   "none",
+   "moderate"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01227",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "parietal",
+   "frontal",
+   "temporal",
+   "occipital"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01249",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: signal characteristics, enhancement pattern, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01264",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "mixed",
+  "options": [
+   "mixed",
+   "hyperintense",
+   "hypointense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01270",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01272",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01286",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "In the left temporal region, there is a small patchy lesion with isointense signal measuring approximately 11*14*11mm. No midline shift or impact on adjacent brain structures is noted.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01313",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "isointense",
+  "options": [
+   "mixed",
+   "hyperintense",
+   "isointense",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01355",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01362",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01368",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01380",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01383",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "isointense",
+  "options": [
+   "isointense",
+   "mixed",
+   "hypointense",
+   "hyperintense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01393",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "isointense",
+   "hyperintense",
+   "mixed",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01396",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01408",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01413",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "temporal",
+  "options": [
+   "frontal",
+   "occipital",
+   "parietal",
+   "temporal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01418",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01495",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "severe",
+  "options": [
+   "none",
+   "severe",
+   "mild",
+   "moderate"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01497",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01500",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01506",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "occipital",
+  "options": [
+   "temporal",
+   "parietal",
+   "frontal",
+   "occipital"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01513",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01527",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01544",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01563",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "edema pattern",
+  "options": [
+   "signal characteristics",
+   "edema pattern",
+   "enhancement pattern",
+   "lesion location"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01575",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: signal characteristics, enhancement pattern, lesion location.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01583",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "severe",
+   "none",
+   "mild",
+   "moderate"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01588",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01591",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01597",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01598",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01611",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "mixed",
+  "options": [
+   "hypointense",
+   "mixed",
+   "isointense",
+   "hyperintense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01618",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01623",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "Underneath the skull plate of the right temporal region, there is a mass-like lesion presenting an isointense signal, without a midline shift.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01657",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01660",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: signal characteristics, enhancement pattern, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01662",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01673",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01685",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "mild",
+  "options": [
+   "none",
+   "mild",
+   "severe",
+   "moderate"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01695",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01698",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01703",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01706",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "mixed",
+   "isointense",
+   "hypointense",
+   "hyperintense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01720",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "moderate",
+  "options": [
+   "severe",
+   "none",
+   "moderate",
+   "mild"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01724",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "isointense",
+  "options": [
+   "mixed",
+   "hyperintense",
+   "isointense",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01727",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01738",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "Adjacent to the cerebral longitudinal fissure, there is a mass-like lesion with isointense signal on T1-weighted images, measuring approximately 12*12*12 mm. There is no displacement of central struct",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01747",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01750",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01751",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "severe",
+   "moderate",
+   "mild",
+   "none"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01753",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01762",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "severe",
+   "moderate",
+   "none",
+   "mild"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01770",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "posterior fossa",
+  "options": [
+   "posterior fossa",
+   "parietal",
+   "occipital",
+   "temporal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01790",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "temporal",
+  "options": [
+   "occipital",
+   "parietal",
+   "temporal",
+   "frontal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01794",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "Under the left frontal-temporal lobes and the right temporal part of the cranial plate, mass-like lesions with iso-intense signals are present. The lesions are accompanied by peritumoral edema and cys",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01795",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01808",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01817",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral cerebellar region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01843",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "mixed",
+   "isointense",
+   "hypointense",
+   "hyperintense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01852",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "hyperintense",
+   "hypointense",
+   "mixed",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01861",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01863",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral cerebellar region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01864",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01867",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "Beneath the right parietal bone there is a mass-like lesion that shows an isointense signal, measuring approximately 18*21*26mm. The midline structure shows no deviation.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01896",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "edema pattern",
+  "options": [
+   "lesion location",
+   "edema pattern",
+   "signal characteristics",
+   "enhancement pattern"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01921",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "temporal",
+   "parietal",
+   "frontal",
+   "occipital"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01943",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "In the right cerebellopontine area, beneath the cranial plate, there is a mass-like lesion with an iso-intense signal, clear boundaries, measuring approximately 17 x 13 x 15 mm. There is no midline sh",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01951",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "none",
+   "moderate",
+   "severe",
+   "mild"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01972",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01978",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-01995",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "mild",
+   "moderate",
+   "severe",
+   "none"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02023",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02027",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02039",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "In the right frontal temporal lobe, there is a lesion with isointense signal on T1-weighted MRI, measuring approximately 62*89*81mm. The lesion is associated with peritumoral edema and causes compress",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02045",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "frontal",
+   "parietal",
+   "occipital",
+   "temporal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02053",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "isointense",
+  "options": [
+   "hypointense",
+   "isointense",
+   "hyperintense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02069",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02079",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02083",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral cerebellar region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02084",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "none",
+   "moderate",
+   "mild",
+   "severe"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02105",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "isointense",
+  "options": [
+   "mixed",
+   "hyperintense",
+   "isointense",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02106",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "isointense",
+  "options": [
+   "isointense",
+   "hyperintense",
+   "mixed",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02137",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02144",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02166",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "parietal",
+   "occipital",
+   "temporal",
+   "frontal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02211",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02224",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02250",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02268",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02274",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02279",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02288",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02297",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is the perilesional edema extensive?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02313",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02352",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "edema pattern",
+  "options": [
+   "enhancement pattern",
+   "lesion location",
+   "signal characteristics",
+   "edema pattern"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02353",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "signal characteristics",
+  "options": [
+   "edema pattern",
+   "enhancement pattern",
+   "signal characteristics",
+   "lesion location"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02355",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02363",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "answer": "signal characteristics",
+  "options": [
+   "lesion location",
+   "signal characteristics",
+   "edema pattern",
+   "enhancement pattern"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02365",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02371",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the temporal lobe?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02374",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral temporal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02405",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "moderate",
+  "options": [
+   "moderate",
+   "mild",
+   "severe",
+   "none"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02449",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02450",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "temporal",
+   "frontal",
+   "occipital",
+   "parietal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02453",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02460",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02467",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral falx region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02480",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02485",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02493",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "In the right frontal lobe, there is a lesion presenting with a slightly low signal, measuring approximately 80*124*88mm. There's a perilesional cerebrospinal fluid cleft and the right lateral ventricl",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02498",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02505",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "Below the skull plate in the left frontal region, there is a lesion presenting with isointense signal, with dimensions of approximately 14*20*16 mm. No impact on surrounding brain tissue or displaceme",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02506",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral occipital region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02518",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "parietal",
+  "options": [
+   "occipital",
+   "parietal",
+   "temporal",
+   "frontal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02528",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "The lesion located at the right cranial base is isointense on T1-weighted sequence, measures approximately 12*7*12 mm, and there is no evidence of midline shift.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02538",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02555",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02565",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "occipital",
+   "temporal",
+   "parietal",
+   "frontal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02605",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02608",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02610",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "mild",
+   "none",
+   "moderate",
+   "severe"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02612",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral temporal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02613",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "parietal",
+   "occipital",
+   "temporal",
+   "frontal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02648",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "posterior fossa",
+  "options": [
+   "temporal",
+   "occipital",
+   "posterior fossa",
+   "parietal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02657",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BMEN-02663",
+  "dataset": "BraTS-MEN",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ }
+]

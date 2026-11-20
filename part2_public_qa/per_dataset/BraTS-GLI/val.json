@@ -1,0 +1,5899 @@
+[
+ {
+  "neuroqa_id": "BGLI-00006",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00045",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00058",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00067",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "temporal",
+  "options": [
+   "parietal",
+   "temporal",
+   "frontal",
+   "occipital"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00079",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "hypointense",
+   "isointense",
+   "hyperintense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00085",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "hypointense",
+   "hyperintense",
+   "isointense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00086",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "In the left frontal parietal occipital lobe, there is a lesion with a T1W hypointense signal and a trace of hyperintense signal, measuring approximately 62*94*80mm. The lesion's boundaries are unclear",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00100",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "An irregular abnormal signal focus in the right temporal-occipital lobe shows a low signal with localized high signal areas. The lesion measures approximately 55*79*56mm, the boundaries are indistinct",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00119",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "ring-like",
+  "options": [
+   "peripheral",
+   "homogeneous",
+   "heterogeneous",
+   "ring-like"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00121",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00130",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the parietal lobe?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00138",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "In the left basal ganglia area, there is a nodular lesion with a slightly low signal, clear boundaries, measuring about 32*60*48 mm. There is associated flaky peritumoral edema. Midline structures sho",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00139",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "isointense",
+   "mixed",
+   "hypointense",
+   "hyperintense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00153",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "temporal",
+  "options": [
+   "occipital",
+   "temporal",
+   "frontal",
+   "parietal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00155",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00160",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00168",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "occipital",
+  "options": [
+   "parietal",
+   "frontal",
+   "occipital",
+   "temporal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00173",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00175",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "severe",
+   "moderate",
+   "mild",
+   "none"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00206",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "hyperintense",
+   "isointense",
+   "mixed",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00207",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "mixed",
+  "options": [
+   "isointense",
+   "hypointense",
+   "hyperintense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00230",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00236",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the parietal lobe?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00243",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion have well-defined borders?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00246",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "temporal",
+  "options": [
+   "temporal",
+   "parietal",
+   "occipital",
+   "frontal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00253",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "isointense",
+   "hyperintense",
+   "hypointense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00275",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00286",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "ring-like",
+  "options": [
+   "ring-like",
+   "peripheral",
+   "homogeneous",
+   "heterogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00289",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the parietal lobe?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00290",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00296",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00320",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "heterogeneous",
+  "options": [
+   "heterogeneous",
+   "ring-like",
+   "peripheral",
+   "homogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00322",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "hypointense",
+   "mixed",
+   "isointense",
+   "hyperintense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00323",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral occipital region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00345",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "isointense",
+   "hypointense",
+   "mixed",
+   "hyperintense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00347",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00378",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "temporal",
+   "occipital",
+   "frontal",
+   "parietal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00380",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral temporal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00413",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "hyperintense",
+   "mixed",
+   "hypointense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00419",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "mixed",
+  "options": [
+   "isointense",
+   "hyperintense",
+   "hypointense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00424",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "moderate",
+  "options": [
+   "moderate",
+   "severe",
+   "none",
+   "mild"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00436",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "ring-like",
+  "options": [
+   "heterogeneous",
+   "ring-like",
+   "homogeneous",
+   "peripheral"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00470",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00476",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the temporal lobe?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00483",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "hypointense",
+   "isointense",
+   "hyperintense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00498",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "mixed",
+  "options": [
+   "mixed",
+   "hyperintense",
+   "hypointense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00504",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "ring-like",
+  "options": [
+   "peripheral",
+   "ring-like",
+   "heterogeneous",
+   "homogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00509",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00515",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00528",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "homogeneous",
+  "options": [
+   "heterogeneous",
+   "ring-like",
+   "homogeneous",
+   "peripheral"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00540",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00545",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "hyperintense",
+   "hypointense",
+   "mixed",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00551",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "parietal",
+   "occipital",
+   "temporal",
+   "frontal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00572",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00576",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00581",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "moderate",
+  "options": [
+   "moderate",
+   "none",
+   "mild",
+   "severe"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00592",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00599",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the temporal lobe?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00602",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "moderate",
+   "severe",
+   "mild",
+   "none"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00617",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00618",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "mild",
+  "options": [
+   "severe",
+   "none",
+   "mild",
+   "moderate"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00620",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "frontal",
+   "temporal",
+   "occipital",
+   "parietal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00624",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "isointense",
+   "hyperintense",
+   "mixed",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00630",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "The lesion located in the left temporal lobe shows a slightly hypointense signal on T1W imaging, with clear boundaries and measures around 59*81*67 mm. There is associated peritumoral edema, and the l",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00643",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "Isointense to low signal lesions are noted in the left frontal-opercular region and the genu of the corpus callosum, with the largest lesion being approximately 89*112*97 mm, adjacent to the falx cere",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00645",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00655",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "hyperintense",
+   "hypointense",
+   "mixed",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00677",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the temporal lobe?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00709",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the temporal lobe?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00711",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "ring-like",
+  "options": [
+   "peripheral",
+   "ring-like",
+   "homogeneous",
+   "heterogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00720",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "The left frontal operculum and basal ganglia region show an irregular lesion that is hypointense with areas of hyperintensity, unclear boundaries, significant surrounding brain edema, compression of t",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00723",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "ring-like",
+  "options": [
+   "heterogeneous",
+   "peripheral",
+   "ring-like",
+   "homogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00727",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "mild",
+  "options": [
+   "moderate",
+   "none",
+   "severe",
+   "mild"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00730",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral basal ganglia region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00738",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "ring-like",
+  "options": [
+   "heterogeneous",
+   "homogeneous",
+   "ring-like",
+   "peripheral"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00744",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00746",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "At the junction of the left frontal and parietal lobes, an irregular abnormal signal focus is noted, characterized by a low signal intensity. It measures approximately 47*83*62 mm in size. There is as",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00761",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00763",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "frontal",
+   "parietal",
+   "occipital",
+   "temporal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00786",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00811",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00825",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the frontal lobe?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00842",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion have well-defined borders?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00862",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the parietal lobe?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00864",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the frontal lobe?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00869",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "moderate",
+  "options": [
+   "severe",
+   "none",
+   "moderate",
+   "mild"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00872",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "heterogeneous",
+  "options": [
+   "peripheral",
+   "homogeneous",
+   "ring-like",
+   "heterogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00880",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "There is an abnormal signal focus in the right frontal lobe, which is slightly hypointense, with ill-defined borders, and without causing a midline shift.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00892",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "temporal",
+  "options": [
+   "frontal",
+   "parietal",
+   "temporal",
+   "occipital"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00909",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00915",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "hyperintense",
+   "hypointense",
+   "mixed",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00916",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the frontal lobe?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00918",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the frontal lobe?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00921",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00954",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "mixed",
+  "options": [
+   "hypointense",
+   "mixed",
+   "hyperintense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00963",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00970",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "none",
+   "severe",
+   "mild",
+   "moderate"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00994",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral temporal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-00996",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01004",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the frontal lobe?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01009",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the temporal lobe?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01012",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "mixed",
+  "options": [
+   "hyperintense",
+   "hypointense",
+   "isointense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01019",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01030",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01036",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "hyperintense",
+   "mixed",
+   "isointense",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01041",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "mixed",
+   "hyperintense",
+   "hypointense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01042",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01043",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral temporal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01083",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01097",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "frontal",
+   "temporal",
+   "parietal",
+   "occipital"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01100",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "hypointense",
+   "mixed",
+   "hyperintense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01101",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "Right frontal lobe displays an irregular abnormal signal focus with low signal intensity and subtle high signal areas.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01106",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "occipital",
+  "options": [
+   "parietal",
+   "frontal",
+   "temporal",
+   "occipital"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01130",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01142",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "mild",
+  "options": [
+   "moderate",
+   "none",
+   "severe",
+   "mild"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01176",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "isointense",
+   "hypointense",
+   "hyperintense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01188",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "basal ganglia",
+  "options": [
+   "temporal",
+   "frontal",
+   "occipital",
+   "basal ganglia"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01213",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01217",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01235",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the temporal lobe?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01248",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01263",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "In the right temporal lobe, there is a lesion with low signal intensity mixed with slight high signals, unclear boundaries, and it measures approximately 67*110*71 mm. There is associated edema in the",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01275",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral temporal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01278",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "severe",
+  "options": [
+   "none",
+   "moderate",
+   "mild",
+   "severe"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01280",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral occipital region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01286",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01291",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01308",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01321",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01327",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "The right frontal lobe shows an irregular abnormal signal focus that crosses the midline. It is characterized by low signal intensity with spots of high signal. The lesion is approximately 61x78x66 mm",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01377",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01403",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01409",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "mixed",
+   "hyperintense",
+   "isointense",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01435",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01442",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01468",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "temporal",
+  "options": [
+   "frontal",
+   "parietal",
+   "temporal",
+   "occipital"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01488",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "isointense",
+  "options": [
+   "hyperintense",
+   "hypointense",
+   "mixed",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01498",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01514",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "heterogeneous",
+  "options": [
+   "ring-like",
+   "heterogeneous",
+   "peripheral",
+   "homogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01520",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01526",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01527",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01532",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion have well-defined borders?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01580",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "ring-like",
+  "options": [
+   "peripheral",
+   "ring-like",
+   "homogeneous",
+   "heterogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01581",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01588",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01592",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "moderate",
+   "severe",
+   "mild",
+   "none"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01608",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "frontal",
+   "occipital",
+   "temporal",
+   "parietal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01616",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "severe",
+  "options": [
+   "none",
+   "severe",
+   "mild",
+   "moderate"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01617",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01623",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral temporal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01627",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01628",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "ring-like",
+  "options": [
+   "ring-like",
+   "homogeneous",
+   "peripheral",
+   "heterogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01642",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "mild",
+  "options": [
+   "none",
+   "mild",
+   "severe",
+   "moderate"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01655",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "moderate",
+  "options": [
+   "mild",
+   "none",
+   "moderate",
+   "severe"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01666",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "frontal",
+   "parietal",
+   "occipital",
+   "temporal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01672",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01687",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01689",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01699",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "In the right frontal lobe, basal ganglia area, and adjacent to the lateral ventricle, there are multiple clustered lesions exhibiting slightly low signal intensity, with clear boundaries measuring app",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01703",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "ring-like",
+  "options": [
+   "homogeneous",
+   "peripheral",
+   "ring-like",
+   "heterogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01719",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "temporal",
+  "options": [
+   "frontal",
+   "parietal",
+   "temporal",
+   "occipital"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01723",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "mixed",
+  "options": [
+   "hypointense",
+   "hyperintense",
+   "mixed",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01749",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01754",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01777",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "hypointense",
+   "hyperintense",
+   "isointense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01778",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01781",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01785",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "severe",
+  "options": [
+   "moderate",
+   "mild",
+   "severe",
+   "none"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01819",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01821",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01824",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "The lesion in the right temporal lobe is isointense on T1-weighted images with unclear boundaries, measuring approximately 55 by 76 by 43 mm. No significant changes are noted in the surrounding midlin",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01836",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "parietal",
+   "temporal",
+   "occipital",
+   "frontal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01844",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "isointense",
+   "hyperintense",
+   "hypointense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01853",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01856",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "isointense",
+   "mixed",
+   "hypointense",
+   "hyperintense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01893",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the parietal lobe?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01900",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01906",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral temporal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01925",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01956",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion have well-defined borders?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01981",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01982",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral temporal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01983",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-01995",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02036",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "mixed",
+  "options": [
+   "hyperintense",
+   "mixed",
+   "hypointense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02038",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02048",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02074",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "mixed",
+  "options": [
+   "hyperintense",
+   "isointense",
+   "mixed",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02082",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "The lesion located in the left parieto-occipital lobe and the splenium of the corpus callosum appears as a low signal with some areas showing high signal on T1-weighted images. The lesion measures app",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02113",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "none",
+   "mild",
+   "severe",
+   "moderate"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02115",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "hyperintense",
+   "hypointense",
+   "isointense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02122",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02129",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the frontal lobe?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02140",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02155",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "hyperintense",
+   "isointense",
+   "mixed",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02162",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "There is an irregular lesion in the right temporal lobe showing low signal with some high signal areas. The lesion is approximately 61*104*75 mm in size with unclear boundaries. The right lateral vent",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02173",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02194",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "ring-like",
+  "options": [
+   "peripheral",
+   "ring-like",
+   "homogeneous",
+   "heterogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02202",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02213",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion have well-defined borders?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02215",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "hypointense",
+   "hyperintense",
+   "mixed",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02234",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "temporal",
+   "frontal",
+   "occipital",
+   "parietal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02246",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the temporal lobe?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02247",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "none",
+  "options": [
+   "mild",
+   "severe",
+   "moderate",
+   "none"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02264",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion have well-defined borders?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02267",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02274",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "mild",
+  "options": [
+   "none",
+   "severe",
+   "mild",
+   "moderate"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02278",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02281",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion have well-defined borders?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02282",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "basal ganglia",
+  "options": [
+   "temporal",
+   "parietal",
+   "frontal",
+   "basal ganglia"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02283",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02313",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "temporal",
+  "options": [
+   "temporal",
+   "frontal",
+   "occipital",
+   "parietal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02320",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02327",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02338",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02353",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "occipital",
+   "temporal",
+   "parietal",
+   "frontal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02366",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "A mass-like lesion in the right parieto-occipital lobe presents with a slightly low signal on T1-weighted images, has a clear boundary, and is associated with perilesional edema. There is no shift of ",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02370",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02404",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "mixed",
+  "options": [
+   "hypointense",
+   "mixed",
+   "hyperintense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02407",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02418",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "hyperintense",
+   "hypointense",
+   "isointense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02427",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02454",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "moderate",
+  "options": [
+   "moderate",
+   "none",
+   "severe",
+   "mild"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02483",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "hyperintense",
+   "mixed",
+   "hypointense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02491",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion have well-defined borders?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02512",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "mixed",
+  "options": [
+   "mixed",
+   "isointense",
+   "hypointense",
+   "hyperintense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02526",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "In the left frontal lobe, an irregular abnormal signal focus is noted with low signal intensity on T1W imaging. The lesion measures approximately 46*72*52mm and is surrounded by significant brain pare",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02554",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02557",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02568",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02571",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "mixed",
+  "options": [
+   "hypointense",
+   "mixed",
+   "hyperintense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02572",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02582",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "On T1-weighted images, multiple irregular abnormal foci are noted in the left frontal-temporal-insular lobes demonstrating iso- to hypointense signals. The largest lesion, located in the left frontal ",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02592",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral basal ganglia region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02598",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "ring-like",
+  "options": [
+   "peripheral",
+   "heterogeneous",
+   "ring-like",
+   "homogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02605",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02608",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "heterogeneous",
+  "options": [
+   "heterogeneous",
+   "peripheral",
+   "homogeneous",
+   "ring-like"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02637",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "mixed",
+  "options": [
+   "hypointense",
+   "hyperintense",
+   "mixed",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02642",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02658",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "moderate",
+  "options": [
+   "none",
+   "moderate",
+   "severe",
+   "mild"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02660",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02664",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02669",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02680",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "moderate",
+  "options": [
+   "mild",
+   "none",
+   "severe",
+   "moderate"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02691",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "hyperintense",
+   "mixed",
+   "isointense",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02700",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02745",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "ring-like",
+  "options": [
+   "ring-like",
+   "peripheral",
+   "heterogeneous",
+   "homogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02758",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "In the right frontal lobe, a lesion is present with slightly low signal intensity, clear boundaries, and dimensions of approximately 55*93*69 mm. The surrounding brain tissue exhibits peritumoral edem",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02767",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the frontal lobe?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02769",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "Irregular abnormal signal foci are observed in the right basal ganglia and frontal operculum, showing low signal intensity with local areas of high signal. These foci have unclear boundaries and are a",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02777",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "An irregular abnormal signal focus is located in the right temporal-occipital lobe, which is hypointense on T1-weighted imaging with some hyperintense areas; it measures approximately 58*78*67 mm and ",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02810",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02826",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02833",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02841",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02847",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02855",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the frontal lobe?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02858",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02872",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "hypointense",
+  "options": [
+   "mixed",
+   "hypointense",
+   "hyperintense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02877",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02888",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02909",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02914",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "isointense",
+  "options": [
+   "hypointense",
+   "mixed",
+   "isointense",
+   "hyperintense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02924",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "answer": "The lesion is located in the bilateral frontal region.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02926",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "heterogeneous",
+  "options": [
+   "ring-like",
+   "homogeneous",
+   "heterogeneous",
+   "peripheral"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02929",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T1-weighted imaging?",
+  "answer": "isointense",
+  "options": [
+   "isointense",
+   "mixed",
+   "hyperintense",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02930",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "answer": "frontal",
+  "options": [
+   "parietal",
+   "temporal",
+   "occipital",
+   "frontal"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02946",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02950",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Severity",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "answer": "moderate",
+  "options": [
+   "moderate",
+   "mild",
+   "none",
+   "severe"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02966",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "answer": "hyperintense",
+  "options": [
+   "mixed",
+   "hypointense",
+   "isointense",
+   "hyperintense"
+  ],
+  "answerable_modalities": [
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02968",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion have well-defined borders?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02972",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02991",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-02996",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T2-weighted MRI scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-03003",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does the lesion have well-defined borders?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-03005",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: edema pattern, signal characteristics, enhancement pattern, lesion location, lesion morphology.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-03008",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "heterogeneous",
+  "options": [
+   "peripheral",
+   "ring-like",
+   "homogeneous",
+   "heterogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-03019",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "answer": "There are two lesions in the right temporal-occipital lobe presenting with low T1 signal and parts with slight high signal. The larger lesion is located in the right temporal lobe, with dimensions of ",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-03041",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-03057",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "heterogeneous",
+  "options": [
+   "homogeneous",
+   "heterogeneous",
+   "peripheral",
+   "ring-like"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-03061",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-03080",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-03085",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the lesion located in the parietal lobe?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-03108",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-03109",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Modality",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w",
+   "T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "BGLI-03110",
+  "dataset": "BraTS-GLI",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "answer": "homogeneous",
+  "options": [
+   "peripheral",
+   "ring-like",
+   "heterogeneous",
+   "homogeneous"
+  ],
+  "answerable_modalities": [
+   "T1w",
+   "T2w",
+   "T1w+T2w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ }
+]

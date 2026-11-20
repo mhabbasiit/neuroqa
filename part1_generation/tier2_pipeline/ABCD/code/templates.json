@@ -1,0 +1,1412 @@
+[
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Are both hippocampi within expected volume range for this 22-25-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Are both hippocampi within expected volume range for this 9-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Are both hippocampi within normal volume range in this scan?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "Open",
+  "question": "Are the ventricles enlarged or normal in this scan?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Are the ventricles enlarged relative to brain size in this scan?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Are the ventricles normal in size relative to brain size in this scan?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Are the ventricles normal-sized in this scan?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Are the ventricles relatively enlarged beyond expected age-related changes (subject age: 57)?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Are the ventricles relatively enlarged for a pediatric brain? (subject age: 9)",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Are the ventricles relatively enlarged for a young adult brain? (subject age: 25)",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Are the ventricles relatively enlarged for this age group (55-78 years old)?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "Open",
+  "question": "Are the ventricles relatively enlarged or normal in this pediatric scan? (subject age: 12)",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "Open",
+  "question": "Are the ventricles relatively enlarged or normal in this scan? (subject age: 48)",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "Open",
+  "question": "Are the ventricles relatively enlarged or within expected range in this scan (subject age: 83)?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Are the ventricles in this scan within expected size for an 87-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Are the ventricles within expected size for this 47-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Are the ventricles within expected size in this scan (subject age: 16)?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Are the ventricles within normal size for a developing brain (9-10 years old)?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Are the ventricles within normal size for a young adult brain (22-35 years old)?",
+  "options": null
+ },
+ {
+  "category": "Signal",
+  "question_type": "YN",
+  "question": "Are white matter hyperintensities present in this scan?",
+  "options": null
+ },
+ {
+  "category": "Signal",
+  "question_type": "YN",
+  "question": "Are white matter signal abnormalities present in this scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "Open",
+  "question": "Describe the location of the lesion.",
+  "options": null
+ },
+ {
+  "category": "Signal",
+  "question_type": "Open",
+  "question": "Describe the signal characteristics of the lesion on the T1-weighted imaging scan.",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Are there any structural abnormalities that suggest atypical development for a 10-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Are the structural findings consistent with normal development for a 9 year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Do the structural findings suggest neurodegenerative changes in this subject?",
+  "options": null
+ },
+ {
+  "category": "Signal",
+  "question_type": "YN",
+  "question": "Do the white matter lesions appear hypointense on the T1-weighted imaging scan?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Does the brain show structural deviations beyond expected age-related changes (subject age: 73)?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Does the brain show structural deviations from expected developmental norms (subject age: 9)?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Does the brain show structural deviations from expected development within the age group (5-22 years old)?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Are there any structural findings that deviate from from what is expected for a subject of this age (subject age: 31)?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Does the brain structure in this scan suggest neurodegenerative changes?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Do the structural patterns in this scan suggest findings associated with conditions that may affect cognitive function in this subject?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Does the lesion have well-defined borders?",
+  "options": null
+ },
+ {
+  "category": "Signal",
+  "question_type": "YN",
+  "question": "Does the lesion show high signal intensity on the T2-weighted imaging scan?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Are there any structural patterns consistent with findings that may suggest mild cognitive impairment (MCI) in this subject?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Do the structural patterns in this scan suggest motor-related changes in the subject's brain?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Do the structural patterns in this scan suggest preserved motor function in the subject's brain?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Does this brain scan show structural abnormalities consistent with Alzheimer's disease?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Does this brain scan show structural findings consistent with Parkinson's disease?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Does this brain scan show structural changes consistent with dementia?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Are there any structural findings that suggest an alternative diagnosis to idiopathic Parkinson's disease?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Does this brain scan show any structural abnormalities?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Are there any structural abnormalities in this brain scan that suggest conclusive evidence of cognitive dysfunction?",
+  "options": null
+ },
+ {
+  "category": "Severity",
+  "question_type": "YN",
+  "question": "Does this brain scan contain structural patterns suggestive of high-grade pathology?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Does this scan show relatively small hippocampal volumes (below 25th percentile)?",
+  "options": null
+ },
+ {
+  "category": "Signal",
+  "question_type": "YN",
+  "question": "Does this scan show white matter hyperintensities?",
+  "options": null
+ },
+ {
+  "category": "Signal",
+  "question_type": "YN",
+  "question": "Does this scan show white matter signal abnormalities?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Does this scan contain structural findings that suggest findings consistent with mild cognitive impairment (MCI) in this subject?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Are there any structural abnormalities in this scan that may suggest findings consistent with mild cognitive impairment (MCI) in this subject?",
+  "options": null
+ },
+ {
+  "category": "Severity",
+  "question_type": "YN",
+  "question": "Are there any structural findings in this scan that suggest reduced fluid cognition (NIH Toolbox) in the subject's brain?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Does this subject's brain show any structural deviations from age-related changes (subject age: 57)?",
+  "options": null
+ },
+ {
+  "category": "Longitudinal",
+  "question_type": "YN",
+  "question": "Do structural findings in this scan suggest that the subject's motor function improved compared to the visit 12 months prior (subject age: 52)?",
+  "options": null
+ },
+ {
+  "category": "Longitudinal",
+  "question_type": "YN",
+  "question": "Do structural findings in this scan suggest that the subject's motor function worsened compared to the visit 24 months prior (subject age: 54)?",
+  "options": null
+ },
+ {
+  "category": "Longitudinal",
+  "question_type": "MCQ",
+  "question": "Has the subject's clinical status progressed, remained stable, or improved compared to the previous visit based on the structural findings in this scan (subject age: 69)?",
+  "options": [
+   "Undetermined",
+   "Stable",
+   "Improved",
+   "Progressed"
+  ]
+ },
+ {
+  "category": "Longitudinal",
+  "question_type": "MCQ",
+  "question": "Has the subject's cognitive performance improved, remained stable, or declined compared to the visit 24 months prior based on the structural findings in this scan (subject age: 10)?",
+  "options": [
+   "Improved",
+   "Changed",
+   "Declined",
+   "Stable"
+  ]
+ },
+ {
+  "category": "Longitudinal",
+  "question_type": "YN",
+  "question": "Has the left hippocampal volume decreased compared to the scan 24 months prior (subject age: 9)?",
+  "options": null
+ },
+ {
+  "category": "Longitudinal",
+  "question_type": "YN",
+  "question": "Has the left hippocampal volume increased compared to the scan 25 months prior (subject age: 78)?",
+  "options": null
+ },
+ {
+  "category": "Longitudinal",
+  "question_type": "YN",
+  "question": "Has the whole brain volume decreased compared to the scan 24 months prior (subject age: 9)?",
+  "options": null
+ },
+ {
+  "category": "Longitudinal",
+  "question_type": "YN",
+  "question": "Has the whole brain volume increased compared to the scan 24 months prior (subject age: 9)?",
+  "options": null
+ },
+ {
+  "category": "Longitudinal",
+  "question_type": "YN",
+  "question": "Have the ventricles decreased compared to the scan 4 months prior (subject age: 66)?",
+  "options": null
+ },
+ {
+  "category": "Longitudinal",
+  "question_type": "YN",
+  "question": "Have the ventricles enlarged compared to the scan 1 month prior (subject age: 64)?",
+  "options": null
+ },
+ {
+  "category": "Severity",
+  "question_type": "MCQ",
+  "question": "How would you classify the severity of mass effect in this scan?",
+  "options": [
+   "none",
+   "moderate",
+   "mild",
+   "severe"
+  ]
+ },
+ {
+  "category": "Location",
+  "question_type": "MCQ",
+  "question": "In which lobe is the primary lesion located?",
+  "options": [
+   "parietal",
+   "frontal",
+   "occipital",
+   "posterior fossa"
+  ]
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "options": [
+   "50th-75th percentile",
+   "25th-50th percentile",
+   "Below 25th percentile",
+   "Above 75th percentile"
+  ]
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Are there any structural changes consistent with mild cognitive impairment (MCI) in this subject?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is hippocampal atrophy present in this scan?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Is hippocampal volume below expected range in this scan (subject age: 18)?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Is hippocampal volume below expected range in this scan (subject age: 26-30)?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Is hippocampal volume loss present in this scan?",
+  "options": null
+ },
+ {
+  "category": "Measurement",
+  "question_type": "YN",
+  "question": "Is the average hippocampal volume above 4,100 mm^3 in this scan?",
+  "options": null
+ },
+ {
+  "category": "Measurement",
+  "question_type": "YN",
+  "question": "Is the average hippocampal volume above 3,600 mm^3 in this scan?",
+  "options": null
+ },
+ {
+  "category": "Measurement",
+  "question_type": "YN",
+  "question": "Is the average hippocampal volume below 4,100 mm^3 in this scan?",
+  "options": null
+ },
+ {
+  "category": "Measurement",
+  "question_type": "YN",
+  "question": "Is the average hippocampal volume below 4,200 mm^3 in this scan?",
+  "options": null
+ },
+ {
+  "category": "Severity",
+  "question_type": "YN",
+  "question": "Do the structural findings in this scan suggest that the subject's cognitive impairment is beyond a mild stage?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the entorhinal cortex thinner than expected for this 22-25-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the entorhinal cortex thinner than expected for this 10-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the entorhinal cortex thinner than normal in this scan?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the entorhinal cortical thickness within expected range for this 31-35-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the entorhinal cortical thickness within expected range for this 9-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the entorhinal cortical thickness within normal range in this scan?",
+  "options": null
+ },
+ {
+  "category": "Severity",
+  "question_type": "YN",
+  "question": "Are there structural patterns in the brain that suggest the fluid cognition score is within average range for this subject (subject age: 25)?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume below normal in this scan?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume below the expected range for this 22-25-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume below the expected range for this 14-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 63)?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume within normal range in this scan?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume within the expected range for this 26-30-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume within the expected range for this 9-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the left accumbens smaller than the right accumbens in this scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the left amygdala smaller than the right amygdala in this scan?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the left hippocampus smaller than the right hippocampus in this scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the left lateral ventricle smaller than the right lateral ventricle in this scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the left pallidum smaller than the right pallidum in this scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the left putamen smaller than the right putamen in this scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the lesion located in the frontal lobe?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the lesion located in the parietal lobe?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the lesion located in the temporal lobe?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Is the overall brain morphology within expected limits for this 31-35-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Is the overall brain morphology within expected limits for this 10-year-old developing brain?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Is the overall brain morphology within expected limits for this 36-year-old subject?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the overall brain morphology within normal limits in this scan?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "YN",
+  "question": "Does the brain morphology suggest that the overall cognitive function is within normal limits for this subject?",
+  "options": null
+ },
+ {
+  "category": "Severity",
+  "question_type": "YN",
+  "question": "Is the perilesional edema extensive?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the right accumbens smaller than the left accumbens in this scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the right amygdala smaller than the left amygdala in this scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the right caudate smaller than the left caudate in this scan?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the right hippocampus larger than the left hippocampus in this scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the right hippocampus smaller than the left hippocampus in this scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the right lateral ventricle smaller than the left lateral ventricle in this scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the right pallidum smaller than the left pallidum in this scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "YN",
+  "question": "Is the right putamen smaller than the left putamen in this scan?",
+  "options": null
+ },
+ {
+  "category": "Severity",
+  "question_type": "YN",
+  "question": "Are there any structural findings in the scan that would be inconsistent with intact global cognitive function in a subject of this age (subject age: 36)?",
+  "options": null
+ },
+ {
+  "category": "Severity",
+  "question_type": "YN",
+  "question": "Are there any structural findings in this scan consistent with below-average global cognitive function?",
+  "options": null
+ },
+ {
+  "category": "Severity",
+  "question_type": "YN",
+  "question": "Does the subject's brain morphology suggest findings consistent with superior global cognitive function for their age (subject age: 25)?",
+  "options": null
+ },
+ {
+  "category": "Severity",
+  "question_type": "YN",
+  "question": "Does the subject's brain scan show structural findings associated with below-average global cognitive function?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "options": null
+ },
+ {
+  "category": "Measurement",
+  "question_type": "YN",
+  "question": "Is the ventricular-to-brain volume ratio greater than 1.77% in this scan?",
+  "options": null
+ },
+ {
+  "category": "Measurement",
+  "question_type": "YN",
+  "question": "Is the ventricular-to-brain volume ratio less than 0.62% in this scan?",
+  "options": null
+ },
+ {
+  "category": "Signal",
+  "question_type": "YN",
+  "question": "Is the white matter signal homogeneous (no hyperintensities) in this scan?",
+  "options": null
+ },
+ {
+  "category": "Signal",
+  "question_type": "YN",
+  "question": "Is the white matter signal normal in this scan?",
+  "options": null
+ },
+ {
+  "category": "Measurement",
+  "question_type": "YN",
+  "question": "Is the total brain volume greater than 1,220,000 mm^3 in this scan?",
+  "options": null
+ },
+ {
+  "category": "Measurement",
+  "question_type": "YN",
+  "question": "Is the total brain volume greater than 1,170,000 mm^3 in this scan?",
+  "options": null
+ },
+ {
+  "category": "Measurement",
+  "question_type": "YN",
+  "question": "Is the total brain volume less than 1,220,000 mm^3 in this scan?",
+  "options": null
+ },
+ {
+  "category": "Measurement",
+  "question_type": "YN",
+  "question": "Is the total brain volume less than 1,020,000 mm^3 in this scan?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Is there compression of adjacent structures?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Is there evidence of hemorrhage within the lesion?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Is there evidence of perilesional edema?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Is there notable hippocampal asymmetry (>10% difference between left and right)?",
+  "options": null
+ },
+ {
+  "category": "Modality",
+  "question_type": "YN",
+  "question": "Is this a T1-weighted MRI scan?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Is this a brain scan from a neurologically healthy subject?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Is this brain scan from a child with above average cognitive performance?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Does this brain scan from a pediatric subject (age: 10) show structural features consistent with above-average cognitive performance?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Does this brain scan from a pediatric subject (age: 9) show structural features consistent with below-average cognitive performance?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Does this brain scan from a subject (age: 25) show structural features consistent with above-average cognitive performance?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Does this brain scan from a subject (age: 29) show structural features consistent with average cognitive performance?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Does this brain scan from a subject (age: 31) show structural features inconsistent with average cognitive performance?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Does this brain scan show structural findings inconsistent with a dementia diagnosis (subject age: 64)?",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "YN",
+  "question": "Does this brain scan show structural findings inconsistent with an Alzheimer's disease diagnosis (subject age: 64)?",
+  "options": null
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "YN",
+  "question": "Does this scan show structural findings consistent with normal cognitive function?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "Open",
+  "question": "Based on this scan, does the subject have normal cognition, mild cognitive impairment (MCI), or Alzheimer's disease (AD) (subject age: 73)?",
+  "options": null
+ },
+ {
+  "category": "Demographic",
+  "question_type": "YN",
+  "question": "Is this subject's age likely to be 73 years old or younger?",
+  "options": null
+ },
+ {
+  "category": "Demographic",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Does the subject's scan show evidence of Alzheimer's disease?",
+  "options": null
+ },
+ {
+  "category": "Demographic",
+  "question_type": "YN",
+  "question": "Is this subject likely a young adult (22-25 years old)?",
+  "options": null
+ },
+ {
+  "category": "Demographic",
+  "question_type": "YN",
+  "question": "Is this subject male?",
+  "options": null
+ },
+ {
+  "category": "Demographic",
+  "question_type": "YN",
+  "question": "Is this subject older than 48 years old?",
+  "options": null
+ },
+ {
+  "category": "Demographic",
+  "question_type": "YN",
+  "question": "Is this subject older than 65?",
+  "options": null
+ },
+ {
+  "category": "Demographic",
+  "question_type": "YN",
+  "question": "Is this subject younger than 65 years old?",
+  "options": null
+ },
+ {
+  "category": "Demographic",
+  "question_type": "YN",
+  "question": "Is this subject younger than 13 years old?",
+  "options": null
+ },
+ {
+  "category": "Severity",
+  "question_type": "YN",
+  "question": "Does this subject's scan show structural findings consistent with cognitive screening performance below normal (MoCA < 26)?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Is ventricular enlargement beyond expected for a 89-year-old range present in this scan?",
+  "options": null
+ },
+ {
+  "category": "Presence",
+  "question_type": "YN",
+  "question": "Is ventricular enlargement present in this scan?",
+  "options": null
+ },
+ {
+  "category": "Demographic",
+  "question_type": "MCQ",
+  "question": "What age range does this subject likely belong to?",
+  "options": [
+   "66-75",
+   "76-85",
+   "56-65",
+   "46-55"
+  ]
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "MCQ",
+  "question": "What best describes the hippocampal morphology in this scan?",
+  "options": [
+   "Hippocampal atrophy",
+   "Normal hippocampal volume",
+   "Hippocampal enlargement",
+   "Hippocampal calcification"
+  ]
+ },
+ {
+  "category": "Severity",
+  "question_type": "Open",
+  "question": "What cognitive severity level is most consistent with this scan?",
+  "options": null
+ },
+ {
+  "category": "Severity",
+  "question_type": "Open",
+  "question": "What cognitive severity level is most consistent with this subject?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "options": null
+ },
+ {
+  "category": "Severity",
+  "question_type": "Open",
+  "question": "Based on this scan, describe the expected cognitive screening performance of this subject relative to normative MoCA scores.",
+  "options": null
+ },
+ {
+  "category": "Signal",
+  "question_type": "MCQ",
+  "question": "What is the T1 signal intensity of the white matter lesions?",
+  "options": [
+   "mixed",
+   "isointense",
+   "hyperintense",
+   "hypointense"
+  ]
+ },
+ {
+  "category": "Longitudinal",
+  "question_type": "Open",
+  "question": "What is the clinical progression status of this subject's brain compared to the previous visit (subject age: 70)?",
+  "options": null
+ },
+ {
+  "category": "Longitudinal",
+  "question_type": "Open",
+  "question": "What is the clinical progression status of this subject's brain compared to the visit 15 months prior (subject age: 84)?",
+  "options": null
+ },
+ {
+  "category": "Longitudinal",
+  "question_type": "Open",
+  "question": "What is the cognitive trajectory of the subject's brain compared to the visit 24 months prior (subject age: 10)?",
+  "options": null
+ },
+ {
+  "category": "Demographic",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "options": [
+   "30-39",
+   "40-49",
+   "20-29",
+   "70+"
+  ]
+ },
+ {
+  "category": "Severity",
+  "question_type": "Open",
+  "question": "Based on this scan, describe the expected fluid cognition level for this subject.",
+  "options": null
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "MCQ",
+  "question": "What is the most likely clinical classification based on this brain scan?",
+  "options": [
+   "Healthy Control",
+   "SWEDD",
+   "Prodromal Parkinsonism",
+   "Parkinson's Disease"
+  ]
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "MCQ",
+  "question": "What is the most likely diagnosis?",
+  "options": [
+   "normal aging changes",
+   "infarction",
+   "gliosis",
+   "white matter hyperintensities"
+  ]
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "Open",
+  "question": "What is the most prominent clinical finding for this subject?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "Open",
+  "question": "What is the most prominent structural finding in this brain scan?",
+  "options": null
+ },
+ {
+  "category": "Severity",
+  "question_type": "MCQ",
+  "question": "What is the motor severity level most consistent with this brain scan?",
+  "options": [
+   "No motor signs",
+   "Mild-to-moderate",
+   "Minimal",
+   "Severe"
+  ]
+ },
+ {
+  "category": "Presence",
+  "question_type": "MCQ",
+  "question": "What is the pattern of contrast enhancement?",
+  "options": [
+   "homogeneous",
+   "heterogeneous",
+   "ring-like",
+   "peripheral"
+  ]
+ },
+ {
+  "category": "Signal",
+  "question_type": "MCQ",
+  "question": "What is the severity of white matter changes in this scan?",
+  "options": [
+   "Moderate",
+   "None",
+   "Severe",
+   "Mild"
+  ]
+ },
+ {
+  "category": "Demographic",
+  "question_type": "Open",
+  "question": "What is the sex of this subject?",
+  "options": null
+ },
+ {
+  "category": "Signal",
+  "question_type": "MCQ",
+  "question": "What is the signal intensity of the lesion on T2-weighted imaging?",
+  "options": [
+   "hyperintense",
+   "isointense",
+   "mixed",
+   "hypointense"
+  ]
+ },
+ {
+  "category": "Measurement",
+  "question_type": "MCQ",
+  "question": "What range best describes the average hippocampal volume (mm^3) in this scan?",
+  "options": [
+   "> 3,500",
+   "3,000 - 3,500",
+   "2,500 - 3,000",
+   "< 2,500"
+  ]
+ },
+ {
+  "category": "Measurement",
+  "question_type": "MCQ",
+  "question": "What range best describes the intracranial volume of this scan?",
+  "options": [
+   "1,200,000 - 1,400,000",
+   "< 1,200,000",
+   "1,400,000 - 1,600,000",
+   "> 1,600,000"
+  ]
+ },
+ {
+  "category": "Measurement",
+  "question_type": "MCQ",
+  "question": "What range best describes the total ventricular volume (mm^3)?",
+  "options": [
+   "< 20,000",
+   "20,000 - 40,000",
+   "40,000 - 60,000",
+   "> 60,000"
+  ]
+ },
+ {
+  "category": "Severity",
+  "question_type": "MCQ",
+  "question": "What disease severity level is most consistent with this brain scan?",
+  "options": [
+   "No impairment",
+   "Very mild",
+   "Mild",
+   "Moderate to severe"
+  ]
+ },
+ {
+  "category": "Severity",
+  "question_type": "MCQ",
+  "question": "What disease severity level is most consistent with this subject?",
+  "options": [
+   "Questionable",
+   "No impairment",
+   "Mild dementia",
+   "Moderate to severe dementia"
+  ]
+ },
+ {
+  "category": "Severity",
+  "question_type": "MCQ",
+  "question": "What stage of parkinsonism is most consistent with this subject'sbrain scan?",
+  "options": [
+   "Bilateral without balance impairment",
+   "Unilateral",
+   "Severe disability",
+   "No signs"
+  ]
+ },
+ {
+  "category": "Modality",
+  "question_type": "MCQ",
+  "question": "What type of MRI sequence is shown in this image?",
+  "options": [
+   "Diffusion-weighted",
+   "FLAIR",
+   "T1-weighted",
+   "T2-weighted"
+  ]
+ },
+ {
+  "category": "Diagnosis",
+  "question_type": "MCQ",
+  "question": "What type of condition is most consistent with the findings in this scan?",
+  "options": [
+   "Movement disorder",
+   "Neurodegenerative disease",
+   "Vascular disease",
+   "Normal aging"
+  ]
+ },
+ {
+  "category": "Presence",
+  "question_type": "MCQ",
+  "question": "Which best describes the structural findings in this scan?",
+  "options": [
+   "Both hippocampal atrophy and ventricular enlargement",
+   "No significant findings",
+   "Hippocampal atrophy only",
+   "Hippocampal atrophy, ventricular enlargement, and white matter changes"
+  ]
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "MCQ",
+  "question": "Which combination of clinical findings and diagnosis best describes this subject?",
+  "options": [
+   "Low cognitive scores with MCI diagnosis",
+   "Low cognitive scores despite normal diagnosis",
+   "Low cognitive scores with dementia diagnosis",
+   "Preserved scores despite dementia diagnosis"
+  ]
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "MCQ",
+  "question": "Which description best matches the structural findings in this scan?",
+  "options": [
+   "Above median ventricle-to-brain ratio",
+   "Below median hippocampal volume",
+   "Below median volume with above median ventricle ratio",
+   "Within median range for all structures"
+  ]
+ },
+ {
+  "category": "Location",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "options": [
+   "Cannot be determined",
+   "They are equal",
+   "Right hippocampus",
+   "Left hippocampus"
+  ]
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "MCQ",
+  "question": "Which imaging finding most strongly supports the diagnosis of meningioma?",
+  "options": [
+   "enhancement pattern",
+   "lesion location",
+   "edema pattern",
+   "signal characteristics"
+  ]
+ },
+ {
+  "category": "Presence",
+  "question_type": "MCQ",
+  "question": "Which of the following findings is NOT present in this scan?",
+  "options": [
+   "Cortical malformation",
+   "Hemorrhage",
+   "Below expected hippocampal volume",
+   "Ventricular enlargement"
+  ]
+ },
+ {
+  "category": "Presence",
+  "question_type": "MCQ",
+  "question": "Which of the following findings is NOT present in this subject?",
+  "options": [
+   "Tumor mass",
+   "Hemorrhage",
+   "Below-median MMSE",
+   "Cognitive impairment"
+  ]
+ },
+ {
+  "category": "Presence",
+  "question_type": "MCQ",
+  "question": "Which of the following findings is present in this scan?",
+  "options": [
+   "White matter changes",
+   "No significant findings",
+   "Hippocampal atrophy",
+   "Ventricular enlargement"
+  ]
+ },
+ {
+  "category": "Presence",
+  "question_type": "MCQ",
+  "question": "Which of the following findings is present in this subject?",
+  "options": [
+   "Cognitive impairment",
+   "Tumor mass",
+   "Hemorrhage",
+   "Cortical calcification"
+  ]
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's estimated age and hippocampal volume?",
+  "options": [
+   "Unexpected, younger age with smaller hippocampal volume",
+   "Age-appropriate, younger age with larger hippocampal volume",
+   "Age-appropriate, older age with smaller hippocampal volume",
+   "Better than expected, older age with preserved hippocampal volume"
+  ]
+ },
+ {
+  "category": "Location",
+  "question_type": "Open",
+  "question": "Which side has a smaller accumbens volume in this brain scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "Open",
+  "question": "Which side has a smaller amygdala volume in this brain scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "Open",
+  "question": "Which side has a smaller caudate volume in this brain scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "Open",
+  "question": "Which side has a smaller hippocampus volume in this brain scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "Open",
+  "question": "Which side has a smaller lateral ventricle volume in this brain scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "Open",
+  "question": "Which side has a smaller pallidum volume in this brain scan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "Open",
+  "question": "Which side has a smaller putamen volume in this brainscan?",
+  "options": null
+ },
+ {
+  "category": "Location",
+  "question_type": "Open",
+  "question": "Which side has a smaller thalamus volume in this brain scan?",
+  "options": null
+ },
+ {
+  "category": "Reasoning",
+  "question_type": "MCQ",
+  "question": "Which structural pattern best describes the findings in this scan?",
+  "options": [
+   "Ventricular enlargement without hippocampal atrophy",
+   "Hippocampal atrophy without ventricular enlargement",
+   "No significant structural abnormality",
+   "Hippocampal atrophy with ventricular enlargement"
+  ]
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "MCQ",
+  "question": "Which subcortical structure in this scan shows the most volume deviation from expected range?",
+  "options": [
+   "None (all within expected range)",
+   "Caudate nucleus",
+   "Thalamus",
+   "Hippocampus"
+  ]
+ },
+ {
+  "category": "Anatomy",
+  "question_type": "MCQ",
+  "question": "Which subcortical structure shows the most volume reduction in this scan?",
+  "options": [
+   "Hippocampus",
+   "Caudate nucleus",
+   "Thalamus",
+   "None (all normal)"
+  ]
+ }
+]

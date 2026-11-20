@@ -1,0 +1,472 @@
+{
+ "max_swaps": 20000000,
+ "subjects_per_split": {
+  "test_private": 34,
+  "test_public": 34,
+  "val": 34
+ },
+ "template_counts": {
+  "Are both hippocampi within normal volume range in this scan?": 18,
+  "Are the ventricles enlarged or normal in this scan?": 155,
+  "Are the ventricles enlarged relative to brain size in this scan?": 10,
+  "Are the ventricles normal in size relative to brain size in this scan?": 10,
+  "Are the ventricles normal-sized in this scan?": 39,
+  "Are there any structural findings that suggest an alternative diagnosis to idiopathic Parkinson's disease?": 28,
+  "Are white matter signal abnormalities present in this scan?": 126,
+  "Do structural findings in this scan suggest that the subject's motor function improved compared to the visit N months prior (subject age: N)?": 8,
+  "Do structural findings in this scan suggest that the subject's motor function worsened compared to the visit N months prior (subject age: N)?": 13,
+  "Do the structural patterns in this scan suggest motor-related changes in the subject's brain?": 42,
+  "Do the structural patterns in this scan suggest preserved motor function in the subject's brain?": 27,
+  "Does the brain structure in this scan suggest neurodegenerative changes?": 10,
+  "Does this brain scan show any structural abnormalities?": 27,
+  "Does this brain scan show structural findings consistent with Parkinson's disease?": 27,
+  "Does this scan show white matter signal abnormalities?": 34,
+  "Is hippocampal atrophy present in this scan?": 37,
+  "Is hippocampal volume loss present in this scan?": 29,
+  "Is the average hippocampal volume above N mm\u00b3 in this scan?": 44,
+  "Is the average hippocampal volume below N mm\u00b3 in this scan?": 30,
+  "Is the entorhinal cortex thinner than normal in this scan?": 14,
+  "Is the entorhinal cortical thickness within normal range in this scan?": 12,
+  "Is the hippocampal volume below normal in this scan?": 14,
+  "Is the hippocampal volume within normal range in this scan?": 11,
+  "Is the left amygdala smaller than the right amygdala in this scan?": 10,
+  "Is the left lateral ventricle smaller than the right lateral ventricle in this scan?": 20,
+  "Is the left pallidum smaller than the right pallidum in this scan?": 6,
+  "Is the overall brain morphology within normal limits in this scan?": 10,
+  "Is the right amygdala smaller than the left amygdala in this scan?": 6,
+  "Is the right lateral ventricle smaller than the left lateral ventricle in this scan?": 32,
+  "Is the total brain volume greater than N mm^N in this scan?": 42,
+  "Is the total brain volume less than N mm^N in this scan?": 51,
+  "Is the ventricular-to-brain volume ratio greater than N% in this scan?": 36,
+  "Is the ventricular-to-brain volume ratio less than N% in this scan?": 38,
+  "Is the white matter signal normal in this scan?": 28,
+  "Is this a brain scan from a neurologically healthy subject?": 13,
+  "Is this subject female?": 16,
+  "Is this subject older than N years old?": 18,
+  "Is this subject younger than N years old?": 12,
+  "Is ventricular enlargement present in this scan?": 32,
+  "What age range does this subject likely belong to?": 208,
+  "What best describes the hippocampal morphology in this scan?": 38,
+  "What cognitive severity level is most consistent with this scan?": 79,
+  "What is the most likely clinical classification based on this brain scan?": 175,
+  "What is the most prominent structural finding in this brain scan?": 197,
+  "What is the motor severity level most consistent with this brain scan?": 203,
+  "What is the severity of white matter changes in this scan?": 199,
+  "What is the sex of this subject?": 208,
+  "What range best describes the average hippocampal volume (mm\u00b3)?": 63,
+  "What range best describes the intracranial volume of this scan?": 140,
+  "What stage of parkinsonism is most consistent with this subject's brain scan?": 96,
+  "What type of condition is most consistent with the findings in this scan?": 114,
+  "Which best describes the structural findings in this scan?": 89,
+  "Which of the following findings is NOT present in this scan?": 142,
+  "Which of the following findings is present in this scan?": 74,
+  "Which side has a smaller accumbens volume in this brain scan?": 19,
+  "Which side has a smaller amygdala volume in this brain scan?": 34,
+  "Which side has a smaller caudate volume in this brain scan?": 10,
+  "Which side has a smaller hippocampus volume in this brain scan?": 23,
+  "Which side has a smaller lateral ventricle volume in this brain scan?": 73,
+  "Which side has a smaller pallidum volume in this brain scan?": 20,
+  "Which side has a smaller putamen volume in this brain scan?": 18,
+  "Which side has a smaller thalamus volume in this brain scan?": 29,
+  "Which structural pattern best describes the findings in this scan?": 197,
+  "Which subcortical structure shows the most volume reduction in this scan?": 155
+ },
+ "template_split_counts": {
+  "test_private": {
+   "Are both hippocampi within normal volume range in this scan?": 2,
+   "Are the ventricles enlarged or normal in this scan?": 17,
+   "Are the ventricles enlarged relative to brain size in this scan?": 1,
+   "Are the ventricles normal-sized in this scan?": 5,
+   "Are there any structural findings that suggest an alternative diagnosis to idiopathic Parkinson's disease?": 2,
+   "Are white matter signal abnormalities present in this scan?": 12,
+   "Do structural findings in this scan suggest that the subject's motor function improved compared to the visit N months prior (subject age: N)?": 1,
+   "Do structural findings in this scan suggest that the subject's motor function worsened compared to the visit N months prior (subject age: N)?": 1,
+   "Do the structural patterns in this scan suggest motor-related changes in the subject's brain?": 4,
+   "Do the structural patterns in this scan suggest preserved motor function in the subject's brain?": 5,
+   "Does the brain structure in this scan suggest neurodegenerative changes?": 1,
+   "Does this brain scan show any structural abnormalities?": 5,
+   "Does this brain scan show structural findings consistent with Parkinson's disease?": 2,
+   "Does this scan show white matter signal abnormalities?": 6,
+   "Is hippocampal atrophy present in this scan?": 3,
+   "Is hippocampal volume loss present in this scan?": 6,
+   "Is the average hippocampal volume above N mm\u00b3 in this scan?": 8,
+   "Is the entorhinal cortical thickness within normal range in this scan?": 3,
+   "Is the hippocampal volume within normal range in this scan?": 2,
+   "Is the left amygdala smaller than the right amygdala in this scan?": 4,
+   "Is the left lateral ventricle smaller than the right lateral ventricle in this scan?": 4,
+   "Is the overall brain morphology within normal limits in this scan?": 1,
+   "Is the right lateral ventricle smaller than the left lateral ventricle in this scan?": 5,
+   "Is the total brain volume greater than N mm^N in this scan?": 2,
+   "Is the total brain volume less than N mm^N in this scan?": 8,
+   "Is the ventricular-to-brain volume ratio greater than N% in this scan?": 7,
+   "Is the ventricular-to-brain volume ratio less than N% in this scan?": 4,
+   "Is the white matter signal normal in this scan?": 2,
+   "Is this a brain scan from a neurologically healthy subject?": 2,
+   "Is this subject female?": 2,
+   "Is this subject older than N years old?": 1,
+   "Is ventricular enlargement present in this scan?": 3,
+   "What age range does this subject likely belong to?": 20,
+   "What best describes the hippocampal morphology in this scan?": 3,
+   "What cognitive severity level is most consistent with this scan?": 10,
+   "What is the most likely clinical classification based on this brain scan?": 17,
+   "What is the most prominent structural finding in this brain scan?": 20,
+   "What is the motor severity level most consistent with this brain scan?": 25,
+   "What is the severity of white matter changes in this scan?": 20,
+   "What is the sex of this subject?": 20,
+   "What range best describes the average hippocampal volume (mm\u00b3)?": 6,
+   "What range best describes the intracranial volume of this scan?": 14,
+   "What stage of parkinsonism is most consistent with this subject's brain scan?": 11,
+   "What type of condition is most consistent with the findings in this scan?": 10,
+   "Which best describes the structural findings in this scan?": 3,
+   "Which of the following findings is NOT present in this scan?": 16,
+   "Which of the following findings is present in this scan?": 11,
+   "Which side has a smaller accumbens volume in this brain scan?": 1,
+   "Which side has a smaller amygdala volume in this brain scan?": 4,
+   "Which side has a smaller hippocampus volume in this brain scan?": 4,
+   "Which side has a smaller lateral ventricle volume in this brain scan?": 10,
+   "Which side has a smaller pallidum volume in this brain scan?": 6,
+   "Which side has a smaller putamen volume in this brain scan?": 2,
+   "Which side has a smaller thalamus volume in this brain scan?": 2,
+   "Which structural pattern best describes the findings in this scan?": 20,
+   "Which subcortical structure shows the most volume reduction in this scan?": 17
+  },
+  "test_public": {
+   "Are both hippocampi within normal volume range in this scan?": 2,
+   "Are the ventricles enlarged or normal in this scan?": 10,
+   "Are the ventricles enlarged relative to brain size in this scan?": 3,
+   "Are the ventricles normal in size relative to brain size in this scan?": 2,
+   "Are the ventricles normal-sized in this scan?": 5,
+   "Are there any structural findings that suggest an alternative diagnosis to idiopathic Parkinson's disease?": 3,
+   "Are white matter signal abnormalities present in this scan?": 11,
+   "Do structural findings in this scan suggest that the subject's motor function worsened compared to the visit N months prior (subject age: N)?": 2,
+   "Do the structural patterns in this scan suggest motor-related changes in the subject's brain?": 8,
+   "Do the structural patterns in this scan suggest preserved motor function in the subject's brain?": 2,
+   "Does the brain structure in this scan suggest neurodegenerative changes?": 1,
+   "Does this brain scan show any structural abnormalities?": 3,
+   "Does this brain scan show structural findings consistent with Parkinson's disease?": 3,
+   "Does this scan show white matter signal abnormalities?": 2,
+   "Is hippocampal atrophy present in this scan?": 6,
+   "Is hippocampal volume loss present in this scan?": 1,
+   "Is the average hippocampal volume above N mm\u00b3 in this scan?": 3,
+   "Is the average hippocampal volume below N mm\u00b3 in this scan?": 5,
+   "Is the hippocampal volume below normal in this scan?": 4,
+   "Is the hippocampal volume within normal range in this scan?": 2,
+   "Is the left lateral ventricle smaller than the right lateral ventricle in this scan?": 2,
+   "Is the right lateral ventricle smaller than the left lateral ventricle in this scan?": 3,
+   "Is the total brain volume greater than N mm^N in this scan?": 2,
+   "Is the total brain volume less than N mm^N in this scan?": 4,
+   "Is the ventricular-to-brain volume ratio greater than N% in this scan?": 4,
+   "Is the ventricular-to-brain volume ratio less than N% in this scan?": 1,
+   "Is the white matter signal normal in this scan?": 2,
+   "Is this subject female?": 2,
+   "Is this subject older than N years old?": 1,
+   "Is this subject younger than N years old?": 1,
+   "Is ventricular enlargement present in this scan?": 4,
+   "What age range does this subject likely belong to?": 18,
+   "What best describes the hippocampal morphology in this scan?": 6,
+   "What cognitive severity level is most consistent with this scan?": 5,
+   "What is the most likely clinical classification based on this brain scan?": 18,
+   "What is the most prominent structural finding in this brain scan?": 16,
+   "What is the motor severity level most consistent with this brain scan?": 18,
+   "What is the severity of white matter changes in this scan?": 17,
+   "What is the sex of this subject?": 18,
+   "What range best describes the average hippocampal volume (mm\u00b3)?": 8,
+   "What range best describes the intracranial volume of this scan?": 8,
+   "What stage of parkinsonism is most consistent with this subject's brain scan?": 11,
+   "What type of condition is most consistent with the findings in this scan?": 6,
+   "Which best describes the structural findings in this scan?": 6,
+   "Which of the following findings is NOT present in this scan?": 14,
+   "Which of the following findings is present in this scan?": 7,
+   "Which side has a smaller accumbens volume in this brain scan?": 1,
+   "Which side has a smaller amygdala volume in this brain scan?": 6,
+   "Which side has a smaller caudate volume in this brain scan?": 1,
+   "Which side has a smaller hippocampus volume in this brain scan?": 3,
+   "Which side has a smaller lateral ventricle volume in this brain scan?": 4,
+   "Which side has a smaller pallidum volume in this brain scan?": 1,
+   "Which side has a smaller putamen volume in this brain scan?": 1,
+   "Which side has a smaller thalamus volume in this brain scan?": 3,
+   "Which structural pattern best describes the findings in this scan?": 16,
+   "Which subcortical structure shows the most volume reduction in this scan?": 10
+  },
+  "train": {
+   "Are both hippocampi within normal volume range in this scan?": 12,
+   "Are the ventricles enlarged or normal in this scan?": 112,
+   "Are the ventricles enlarged relative to brain size in this scan?": 5,
+   "Are the ventricles normal in size relative to brain size in this scan?": 7,
+   "Are the ventricles normal-sized in this scan?": 23,
+   "Are there any structural findings that suggest an alternative diagnosis to idiopathic Parkinson's disease?": 17,
+   "Are white matter signal abnormalities present in this scan?": 90,
+   "Do structural findings in this scan suggest that the subject's motor function improved compared to the visit N months prior (subject age: N)?": 7,
+   "Do structural findings in this scan suggest that the subject's motor function worsened compared to the visit N months prior (subject age: N)?": 8,
+   "Do the structural patterns in this scan suggest motor-related changes in the subject's brain?": 27,
+   "Do the structural patterns in this scan suggest preserved motor function in the subject's brain?": 17,
+   "Does the brain structure in this scan suggest neurodegenerative changes?": 8,
+   "Does this brain scan show any structural abnormalities?": 18,
+   "Does this brain scan show structural findings consistent with Parkinson's disease?": 20,
+   "Does this scan show white matter signal abnormalities?": 23,
+   "Is hippocampal atrophy present in this scan?": 27,
+   "Is hippocampal volume loss present in this scan?": 21,
+   "Is the average hippocampal volume above N mm\u00b3 in this scan?": 31,
+   "Is the average hippocampal volume below N mm\u00b3 in this scan?": 23,
+   "Is the entorhinal cortex thinner than normal in this scan?": 13,
+   "Is the entorhinal cortical thickness within normal range in this scan?": 6,
+   "Is the hippocampal volume below normal in this scan?": 8,
+   "Is the hippocampal volume within normal range in this scan?": 7,
+   "Is the left amygdala smaller than the right amygdala in this scan?": 6,
+   "Is the left lateral ventricle smaller than the right lateral ventricle in this scan?": 12,
+   "Is the left pallidum smaller than the right pallidum in this scan?": 5,
+   "Is the overall brain morphology within normal limits in this scan?": 7,
+   "Is the right amygdala smaller than the left amygdala in this scan?": 6,
+   "Is the right lateral ventricle smaller than the left lateral ventricle in this scan?": 21,
+   "Is the total brain volume greater than N mm^N in this scan?": 32,
+   "Is the total brain volume less than N mm^N in this scan?": 35,
+   "Is the ventricular-to-brain volume ratio greater than N% in this scan?": 23,
+   "Is the ventricular-to-brain volume ratio less than N% in this scan?": 27,
+   "Is the white matter signal normal in this scan?": 23,
+   "Is this a brain scan from a neurologically healthy subject?": 9,
+   "Is this subject female?": 10,
+   "Is this subject older than N years old?": 14,
+   "Is this subject younger than N years old?": 8,
+   "Is ventricular enlargement present in this scan?": 24,
+   "What age range does this subject likely belong to?": 156,
+   "What best describes the hippocampal morphology in this scan?": 28,
+   "What cognitive severity level is most consistent with this scan?": 56,
+   "What is the most likely clinical classification based on this brain scan?": 126,
+   "What is the most prominent structural finding in this brain scan?": 143,
+   "What is the motor severity level most consistent with this brain scan?": 141,
+   "What is the severity of white matter changes in this scan?": 144,
+   "What is the sex of this subject?": 156,
+   "What range best describes the average hippocampal volume (mm\u00b3)?": 42,
+   "What range best describes the intracranial volume of this scan?": 107,
+   "What stage of parkinsonism is most consistent with this subject's brain scan?": 67,
+   "What type of condition is most consistent with the findings in this scan?": 87,
+   "Which best describes the structural findings in this scan?": 69,
+   "Which of the following findings is NOT present in this scan?": 100,
+   "Which of the following findings is present in this scan?": 53,
+   "Which side has a smaller accumbens volume in this brain scan?": 15,
+   "Which side has a smaller amygdala volume in this brain scan?": 22,
+   "Which side has a smaller caudate volume in this brain scan?": 8,
+   "Which side has a smaller hippocampus volume in this brain scan?": 15,
+   "Which side has a smaller lateral ventricle volume in this brain scan?": 52,
+   "Which side has a smaller pallidum volume in this brain scan?": 11,
+   "Which side has a smaller putamen volume in this brain scan?": 15,
+   "Which side has a smaller thalamus volume in this brain scan?": 21,
+   "Which structural pattern best describes the findings in this scan?": 143,
+   "Which subcortical structure shows the most volume reduction in this scan?": 112
+  },
+  "val": {
+   "Are both hippocampi within normal volume range in this scan?": 2,
+   "Are the ventricles enlarged or normal in this scan?": 16,
+   "Are the ventricles enlarged relative to brain size in this scan?": 1,
+   "Are the ventricles normal in size relative to brain size in this scan?": 1,
+   "Are the ventricles normal-sized in this scan?": 6,
+   "Are there any structural findings that suggest an alternative diagnosis to idiopathic Parkinson's disease?": 6,
+   "Are white matter signal abnormalities present in this scan?": 13,
+   "Do structural findings in this scan suggest that the subject's motor function worsened compared to the visit N months prior (subject age: N)?": 2,
+   "Do the structural patterns in this scan suggest motor-related changes in the subject's brain?": 3,
+   "Do the structural patterns in this scan suggest preserved motor function in the subject's brain?": 3,
+   "Does this brain scan show any structural abnormalities?": 1,
+   "Does this brain scan show structural findings consistent with Parkinson's disease?": 2,
+   "Does this scan show white matter signal abnormalities?": 3,
+   "Is hippocampal atrophy present in this scan?": 1,
+   "Is hippocampal volume loss present in this scan?": 1,
+   "Is the average hippocampal volume above N mm\u00b3 in this scan?": 2,
+   "Is the average hippocampal volume below N mm\u00b3 in this scan?": 2,
+   "Is the entorhinal cortex thinner than normal in this scan?": 1,
+   "Is the entorhinal cortical thickness within normal range in this scan?": 3,
+   "Is the hippocampal volume below normal in this scan?": 2,
+   "Is the left lateral ventricle smaller than the right lateral ventricle in this scan?": 2,
+   "Is the left pallidum smaller than the right pallidum in this scan?": 1,
+   "Is the overall brain morphology within normal limits in this scan?": 2,
+   "Is the right lateral ventricle smaller than the left lateral ventricle in this scan?": 3,
+   "Is the total brain volume greater than N mm^N in this scan?": 6,
+   "Is the total brain volume less than N mm^N in this scan?": 4,
+   "Is the ventricular-to-brain volume ratio greater than N% in this scan?": 2,
+   "Is the ventricular-to-brain volume ratio less than N% in this scan?": 6,
+   "Is the white matter signal normal in this scan?": 1,
+   "Is this a brain scan from a neurologically healthy subject?": 2,
+   "Is this subject female?": 2,
+   "Is this subject older than N years old?": 2,
+   "Is this subject younger than N years old?": 3,
+   "Is ventricular enlargement present in this scan?": 1,
+   "What age range does this subject likely belong to?": 14,
+   "What best describes the hippocampal morphology in this scan?": 1,
+   "What cognitive severity level is most consistent with this scan?": 8,
+   "What is the most likely clinical classification based on this brain scan?": 14,
+   "What is the most prominent structural finding in this brain scan?": 18,
+   "What is the motor severity level most consistent with this brain scan?": 19,
+   "What is the severity of white matter changes in this scan?": 18,
+   "What is the sex of this subject?": 14,
+   "What range best describes the average hippocampal volume (mm\u00b3)?": 7,
+   "What range best describes the intracranial volume of this scan?": 11,
+   "What stage of parkinsonism is most consistent with this subject's brain scan?": 7,
+   "What type of condition is most consistent with the findings in this scan?": 11,
+   "Which best describes the structural findings in this scan?": 11,
+   "Which of the following findings is NOT present in this scan?": 12,
+   "Which of the following findings is present in this scan?": 3,
+   "Which side has a smaller accumbens volume in this brain scan?": 2,
+   "Which side has a smaller amygdala volume in this brain scan?": 2,
+   "Which side has a smaller caudate volume in this brain scan?": 1,
+   "Which side has a smaller hippocampus volume in this brain scan?": 1,
+   "Which side has a smaller lateral ventricle volume in this brain scan?": 7,
+   "Which side has a smaller pallidum volume in this brain scan?": 2,
+   "Which side has a smaller thalamus volume in this brain scan?": 3,
+   "Which structural pattern best describes the findings in this scan?": 18,
+   "Which subcortical structure shows the most volume reduction in this scan?": 16
+  }
+ },
+ "yes_no_answers": {
+  "Are both hippocampi within normal volume range in this scan?": {
+   "No": 8,
+   "Yes": 10
+  },
+  "Are the ventricles enlarged relative to brain size in this scan?": {
+   "No": 5,
+   "Yes": 5
+  },
+  "Are the ventricles normal in size relative to brain size in this scan?": {
+   "No": 5,
+   "Yes": 5
+  },
+  "Are the ventricles normal-sized in this scan?": {
+   "No": 20,
+   "Yes": 19
+  },
+  "Are there any structural findings that suggest an alternative diagnosis to idiopathic Parkinson's disease?": {
+   "No": 14,
+   "Yes": 14
+  },
+  "Are white matter signal abnormalities present in this scan?": {
+   "No": 63,
+   "Yes": 63
+  },
+  "Do structural findings in this scan suggest that the subject's motor function improved compared to the visit N months prior (subject age: N)?": {
+   "No": 4,
+   "Yes": 4
+  },
+  "Do structural findings in this scan suggest that the subject's motor function worsened compared to the visit N months prior (subject age: N)?": {
+   "No": 7,
+   "Yes": 6
+  },
+  "Do the structural patterns in this scan suggest motor-related changes in the subject's brain?": {
+   "No": 21,
+   "Yes": 21
+  },
+  "Do the structural patterns in this scan suggest preserved motor function in the subject's brain?": {
+   "No": 14,
+   "Yes": 13
+  },
+  "Does the brain structure in this scan suggest neurodegenerative changes?": {
+   "No": 5,
+   "Yes": 5
+  },
+  "Does this brain scan show any structural abnormalities?": {
+   "No": 14,
+   "Yes": 13
+  },
+  "Does this brain scan show structural findings consistent with Parkinson's disease?": {
+   "No": 13,
+   "Yes": 14
+  },
+  "Does this scan show white matter signal abnormalities?": {
+   "No": 17,
+   "Yes": 17
+  },
+  "Is hippocampal atrophy present in this scan?": {
+   "No": 19,
+   "Yes": 18
+  },
+  "Is hippocampal volume loss present in this scan?": {
+   "No": 14,
+   "Yes": 15
+  },
+  "Is the average hippocampal volume above N mm\u00b3 in this scan?": {
+   "No": 22,
+   "Yes": 22
+  },
+  "Is the average hippocampal volume below N mm\u00b3 in this scan?": {
+   "No": 15,
+   "Yes": 15
+  },
+  "Is the entorhinal cortex thinner than normal in this scan?": {
+   "No": 7,
+   "Yes": 7
+  },
+  "Is the entorhinal cortical thickness within normal range in this scan?": {
+   "No": 6,
+   "Yes": 6
+  },
+  "Is the hippocampal volume below normal in this scan?": {
+   "No": 7,
+   "Yes": 7
+  },
+  "Is the hippocampal volume within normal range in this scan?": {
+   "No": 5,
+   "Yes": 6
+  },
+  "Is the left amygdala smaller than the right amygdala in this scan?": {
+   "No": 5,
+   "Yes": 5
+  },
+  "Is the left lateral ventricle smaller than the right lateral ventricle in this scan?": {
+   "No": 10,
+   "Yes": 10
+  },
+  "Is the left pallidum smaller than the right pallidum in this scan?": {
+   "No": 3,
+   "Yes": 3
+  },
+  "Is the overall brain morphology within normal limits in this scan?": {
+   "No": 5,
+   "Yes": 5
+  },
+  "Is the right amygdala smaller than the left amygdala in this scan?": {
+   "No": 3,
+   "Yes": 3
+  },
+  "Is the right lateral ventricle smaller than the left lateral ventricle in this scan?": {
+   "No": 16,
+   "Yes": 16
+  },
+  "Is the total brain volume greater than N mm^N in this scan?": {
+   "No": 20,
+   "Yes": 22
+  },
+  "Is the total brain volume less than N mm^N in this scan?": {
+   "No": 26,
+   "Yes": 25
+  },
+  "Is the ventricular-to-brain volume ratio greater than N% in this scan?": {
+   "No": 17,
+   "Yes": 19
+  },
+  "Is the ventricular-to-brain volume ratio less than N% in this scan?": {
+   "No": 19,
+   "Yes": 19
+  },
+  "Is the white matter signal normal in this scan?": {
+   "No": 14,
+   "Yes": 14
+  },
+  "Is this a brain scan from a neurologically healthy subject?": {
+   "No": 7,
+   "Yes": 6
+  },
+  "Is this subject female?": {
+   "No": 8,
+   "Yes": 8
+  },
+  "Is this subject older than N years old?": {
+   "No": 9,
+   "Yes": 9
+  },
+  "Is this subject younger than N years old?": {
+   "No": 6,
+   "Yes": 6
+  },
+  "Is ventricular enlargement present in this scan?": {
+   "No": 17,
+   "Yes": 15
+  }
+ }
+}

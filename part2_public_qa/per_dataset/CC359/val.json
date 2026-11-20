@@ -1,0 +1,6386 @@
+[
+ {
+  "neuroqa_id": "CC359-00012",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "25th-50th percentile",
+  "options": [
+   "Above 75th percentile",
+   "Below 25th percentile",
+   "50th-75th percentile",
+   "25th-50th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00015",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is there notable hippocampal asymmetry (>10% difference between left and right)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00021",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 54)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00022",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Left hippocampus",
+  "options": [
+   "Right hippocampus",
+   "Cannot be determined",
+   "Left hippocampus",
+   "They are equal"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00026",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does this scan show relatively small hippocampal volumes (below 25th percentile)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00027",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00055",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "50th-75th percentile",
+  "options": [
+   "Below 25th percentile",
+   "50th-75th percentile",
+   "25th-50th percentile",
+   "Above 75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00057",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00061",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00063",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00070",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 45)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00082",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Left hippocampus",
+  "options": [
+   "Right hippocampus",
+   "Cannot be determined",
+   "Left hippocampus",
+   "They are equal"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00098",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "29-39",
+  "options": [
+   "40-49",
+   "70-80",
+   "60-69",
+   "29-39"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00116",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "60-69",
+   "50-59",
+   "40-49",
+   "29-39"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00123",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "Above 75th percentile",
+  "options": [
+   "25th-50th percentile",
+   "50th-75th percentile",
+   "Above 75th percentile",
+   "Below 25th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00131",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "40-49",
+  "options": [
+   "70-80",
+   "60-69",
+   "40-49",
+   "50-59"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00141",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 48)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00147",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00167",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00173",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00184",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "40-49",
+   "29-39",
+   "50-59",
+   "60-69"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00197",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "29-39",
+   "70-80",
+   "50-59",
+   "60-69"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00206",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00207",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00225",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "Right hippocampus",
+   "They are equal",
+   "Left hippocampus",
+   "Cannot be determined"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00245",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 60)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00259",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "They are equal",
+   "Cannot be determined",
+   "Left hippocampus",
+   "Right hippocampus"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00265",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00273",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "25th-50th percentile",
+  "options": [
+   "50th-75th percentile",
+   "Above 75th percentile",
+   "25th-50th percentile",
+   "Below 25th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00285",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00302",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "Above 75th percentile",
+  "options": [
+   "Below 25th percentile",
+   "Above 75th percentile",
+   "25th-50th percentile",
+   "50th-75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00311",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 52)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00324",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "Left hippocampus",
+   "Right hippocampus",
+   "They are equal",
+   "Cannot be determined"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00340",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "50th-75th percentile",
+  "options": [
+   "Below 25th percentile",
+   "Above 75th percentile",
+   "50th-75th percentile",
+   "25th-50th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00346",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00347",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00351",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 51)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00376",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "70-80",
+   "40-49",
+   "29-39",
+   "50-59"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00397",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Unexpected — younger age with smaller hippocampal volume",
+  "options": [
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00398",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00402",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00406",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "50th-75th percentile",
+  "options": [
+   "50th-75th percentile",
+   "25th-50th percentile",
+   "Below 25th percentile",
+   "Above 75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00408",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00422",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00424",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "29-39",
+   "50-59",
+   "40-49",
+   "70-80"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00440",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00464",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Unexpected — younger age with smaller hippocampal volume",
+  "options": [
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00466",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00474",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00476",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00504",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00512",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00513",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00544",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00550",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "25th-50th percentile",
+  "options": [
+   "Above 75th percentile",
+   "25th-50th percentile",
+   "Below 25th percentile",
+   "50th-75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00562",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "40-49",
+  "options": [
+   "60-69",
+   "40-49",
+   "70-80",
+   "50-59"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00566",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00577",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00582",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00589",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "70-80",
+   "29-39",
+   "60-69",
+   "50-59"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00601",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00611",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "40-49",
+  "options": [
+   "29-39",
+   "40-49",
+   "70-80",
+   "50-59"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00620",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is there notable hippocampal asymmetry (>10% difference between left and right)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00628",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00639",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "50-59",
+   "60-69",
+   "29-39",
+   "70-80"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00643",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00662",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00669",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00671",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00672",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "40-49",
+   "29-39",
+   "60-69",
+   "50-59"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00707",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "40-49",
+  "options": [
+   "70-80",
+   "50-59",
+   "29-39",
+   "40-49"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00741",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 44)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00749",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 49)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00753",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is there notable hippocampal asymmetry (>10% difference between left and right)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00767",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "40-49",
+  "options": [
+   "40-49",
+   "50-59",
+   "60-69",
+   "29-39"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00782",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "40-49",
+   "60-69",
+   "50-59",
+   "70-80"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00788",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does this scan show relatively small hippocampal volumes (below 25th percentile)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00789",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00794",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00830",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00852",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Unexpected — younger age with smaller hippocampal volume",
+  "options": [
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00860",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "50-59",
+   "40-49",
+   "70-80",
+   "60-69"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00869",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00873",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00883",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00900",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00943",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00946",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Better than expected — older age with preserved hippocampal volume",
+  "options": [
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00951",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "Above 75th percentile",
+  "options": [
+   "25th-50th percentile",
+   "Below 25th percentile",
+   "Above 75th percentile",
+   "50th-75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00955",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00968",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "50th-75th percentile",
+  "options": [
+   "Below 25th percentile",
+   "50th-75th percentile",
+   "Above 75th percentile",
+   "25th-50th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00969",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "Above 75th percentile",
+  "options": [
+   "25th-50th percentile",
+   "Below 25th percentile",
+   "Above 75th percentile",
+   "50th-75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-00979",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01030",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01043",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "50th-75th percentile",
+  "options": [
+   "Below 25th percentile",
+   "50th-75th percentile",
+   "25th-50th percentile",
+   "Above 75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01046",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01067",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "50-59",
+   "40-49",
+   "70-80",
+   "29-39"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01078",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampus larger than the left hippocampus in this scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01091",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01095",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01099",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01100",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01102",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "50th-75th percentile",
+  "options": [
+   "25th-50th percentile",
+   "Above 75th percentile",
+   "50th-75th percentile",
+   "Below 25th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01145",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01146",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "They are equal",
+   "Cannot be determined",
+   "Right hippocampus",
+   "Left hippocampus"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01148",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 56)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01149",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "They are equal",
+   "Cannot be determined",
+   "Left hippocampus",
+   "Right hippocampus"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01152",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01159",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is there notable hippocampal asymmetry (>10% difference between left and right)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01173",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01176",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "25th-50th percentile",
+  "options": [
+   "Above 75th percentile",
+   "25th-50th percentile",
+   "Below 25th percentile",
+   "50th-75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01182",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "25th-50th percentile",
+  "options": [
+   "Above 75th percentile",
+   "Below 25th percentile",
+   "25th-50th percentile",
+   "50th-75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01184",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01187",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "Above 75th percentile",
+  "options": [
+   "50th-75th percentile",
+   "Above 75th percentile",
+   "Below 25th percentile",
+   "25th-50th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01192",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 60)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01193",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01217",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "29-39",
+  "options": [
+   "50-59",
+   "40-49",
+   "60-69",
+   "29-39"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01218",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "60-69",
+   "40-49",
+   "70-80",
+   "50-59"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01222",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 49)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01244",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "25th-50th percentile",
+  "options": [
+   "Below 25th percentile",
+   "25th-50th percentile",
+   "Above 75th percentile",
+   "50th-75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01253",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01273",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Unexpected — younger age with smaller hippocampal volume",
+  "options": [
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01283",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 38)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01285",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "They are equal",
+   "Left hippocampus",
+   "Right hippocampus",
+   "Cannot be determined"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01292",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 53)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01301",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01302",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "Right hippocampus",
+   "Left hippocampus",
+   "They are equal",
+   "Cannot be determined"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01304",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "25th-50th percentile",
+  "options": [
+   "Above 75th percentile",
+   "50th-75th percentile",
+   "Below 25th percentile",
+   "25th-50th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01311",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01374",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01377",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01383",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01386",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01390",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01397",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01408",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01431",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01449",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01462",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01463",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01472",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01474",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "Right hippocampus",
+   "Left hippocampus",
+   "Cannot be determined",
+   "They are equal"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01488",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 55)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01527",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01553",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01554",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01556",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "Above 75th percentile",
+  "options": [
+   "Above 75th percentile",
+   "Below 25th percentile",
+   "25th-50th percentile",
+   "50th-75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01557",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01575",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "60-69",
+   "29-39",
+   "40-49",
+   "50-59"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01581",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01586",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "40-49",
+  "options": [
+   "50-59",
+   "70-80",
+   "40-49",
+   "60-69"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01589",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01596",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01610",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "Above 75th percentile",
+  "options": [
+   "25th-50th percentile",
+   "50th-75th percentile",
+   "Below 25th percentile",
+   "Above 75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01631",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01637",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "40-49",
+  "options": [
+   "40-49",
+   "60-69",
+   "50-59",
+   "29-39"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01639",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01646",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is there notable hippocampal asymmetry (>10% difference between left and right)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01652",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01714",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "They are equal",
+   "Left hippocampus",
+   "Right hippocampus",
+   "Cannot be determined"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01715",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "Right hippocampus",
+   "Left hippocampus",
+   "Cannot be determined",
+   "They are equal"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01726",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "70-80",
+   "50-59",
+   "60-69",
+   "29-39"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01730",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01743",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01744",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "50th-75th percentile",
+  "options": [
+   "50th-75th percentile",
+   "Below 25th percentile",
+   "Above 75th percentile",
+   "25th-50th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01747",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "They are equal",
+   "Right hippocampus",
+   "Cannot be determined",
+   "Left hippocampus"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01755",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Left hippocampus",
+  "options": [
+   "Cannot be determined",
+   "They are equal",
+   "Right hippocampus",
+   "Left hippocampus"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01767",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Better than expected — older age with preserved hippocampal volume",
+  "options": [
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01783",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — older age with smaller hippocampal volume",
+  "options": [
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01806",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01807",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01810",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "29-39",
+  "options": [
+   "50-59",
+   "40-49",
+   "60-69",
+   "29-39"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01815",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "60-69",
+  "options": [
+   "50-59",
+   "29-39",
+   "70-80",
+   "60-69"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01823",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "50th-75th percentile",
+  "options": [
+   "Below 25th percentile",
+   "50th-75th percentile",
+   "25th-50th percentile",
+   "Above 75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01830",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01832",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Better than expected — older age with preserved hippocampal volume",
+  "options": [
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01853",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01854",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01858",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01870",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 61)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01880",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Unexpected — younger age with smaller hippocampal volume",
+  "options": [
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01894",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01898",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "Left hippocampus",
+   "Cannot be determined",
+   "Right hippocampus",
+   "They are equal"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01903",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "50-59",
+   "60-69",
+   "29-39",
+   "70-80"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01911",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — older age with smaller hippocampal volume",
+  "options": [
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01914",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Better than expected — older age with preserved hippocampal volume",
+  "options": [
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01924",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01942",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01943",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01959",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01977",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01989",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-01999",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02028",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02043",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02084",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02090",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Better than expected — older age with preserved hippocampal volume",
+  "options": [
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02100",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 59)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02101",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02137",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Better than expected — older age with preserved hippocampal volume",
+  "options": [
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02147",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02162",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02164",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02167",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "They are equal",
+   "Cannot be determined",
+   "Left hippocampus",
+   "Right hippocampus"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02176",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does this scan show relatively small hippocampal volumes (below 25th percentile)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02182",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02188",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02189",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02192",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02217",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02246",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02250",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "Above 75th percentile",
+  "options": [
+   "Below 25th percentile",
+   "50th-75th percentile",
+   "25th-50th percentile",
+   "Above 75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02261",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "60-69",
+   "70-80",
+   "40-49",
+   "50-59"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02276",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02279",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02281",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02288",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "Above 75th percentile",
+  "options": [
+   "Below 25th percentile",
+   "50th-75th percentile",
+   "25th-50th percentile",
+   "Above 75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02290",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "50th-75th percentile",
+  "options": [
+   "Below 25th percentile",
+   "50th-75th percentile",
+   "Above 75th percentile",
+   "25th-50th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02291",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 56)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02305",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 57)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02313",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02321",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Left hippocampus",
+  "options": [
+   "They are equal",
+   "Right hippocampus",
+   "Cannot be determined",
+   "Left hippocampus"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02322",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "Below 25th percentile",
+  "options": [
+   "Above 75th percentile",
+   "25th-50th percentile",
+   "Below 25th percentile",
+   "50th-75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02329",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02330",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02334",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02335",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — older age with smaller hippocampal volume",
+  "options": [
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02351",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02367",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02379",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "Left hippocampus",
+   "Right hippocampus",
+   "Cannot be determined",
+   "They are equal"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02400",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 36)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02402",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "40-49",
+   "29-39",
+   "50-59",
+   "60-69"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02412",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02432",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02439",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02463",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "Right hippocampus",
+   "Left hippocampus",
+   "Cannot be determined",
+   "They are equal"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02475",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02476",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "25th-50th percentile",
+  "options": [
+   "50th-75th percentile",
+   "25th-50th percentile",
+   "Above 75th percentile",
+   "Below 25th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02505",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 46)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02510",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "70-80",
+   "60-69",
+   "50-59",
+   "40-49"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02535",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02539",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02557",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "They are equal",
+   "Cannot be determined",
+   "Left hippocampus",
+   "Right hippocampus"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02558",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "Below 25th percentile",
+  "options": [
+   "Above 75th percentile",
+   "25th-50th percentile",
+   "Below 25th percentile",
+   "50th-75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02568",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02577",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02580",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "50th-75th percentile",
+  "options": [
+   "Above 75th percentile",
+   "50th-75th percentile",
+   "25th-50th percentile",
+   "Below 25th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02594",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02598",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 55)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02622",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02628",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02634",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02643",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02662",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02668",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 51)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02671",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "70-80",
+   "40-49",
+   "50-59",
+   "60-69"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02684",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02685",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02692",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "40-49",
+   "60-69",
+   "29-39",
+   "50-59"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02723",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02787",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "60-69",
+   "29-39",
+   "50-59",
+   "40-49"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02793",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is there notable hippocampal asymmetry (>10% difference between left and right)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02808",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02816",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 38)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02826",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 50)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02828",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "Cannot be determined",
+   "They are equal",
+   "Left hippocampus",
+   "Right hippocampus"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02830",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 63)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02846",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02848",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02857",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02885",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02892",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02905",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does this scan show relatively small hippocampal volumes (below 25th percentile)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02910",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02922",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02950",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02955",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02979",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-02984",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03005",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03014",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "29-39",
+   "50-59",
+   "40-49",
+   "70-80"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03022",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 60)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03025",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Unexpected — younger age with smaller hippocampal volume",
+  "options": [
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03033",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does this scan show relatively small hippocampal volumes (below 25th percentile)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03034",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03035",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03040",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03056",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Left hippocampus",
+  "options": [
+   "Left hippocampus",
+   "Right hippocampus",
+   "They are equal",
+   "Cannot be determined"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03070",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 48)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03081",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03087",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does this scan show relatively small hippocampal volumes (below 25th percentile)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03093",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03094",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does this scan show relatively small hippocampal volumes (below 25th percentile)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03104",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Better than expected — older age with preserved hippocampal volume",
+  "options": [
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03129",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03135",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03147",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03162",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Unexpected — younger age with smaller hippocampal volume",
+  "options": [
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03179",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "25th-50th percentile",
+  "options": [
+   "Above 75th percentile",
+   "Below 25th percentile",
+   "50th-75th percentile",
+   "25th-50th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03184",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "Cannot be determined",
+   "Right hippocampus",
+   "They are equal",
+   "Left hippocampus"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03189",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "Above 75th percentile",
+  "options": [
+   "Below 25th percentile",
+   "Above 75th percentile",
+   "50th-75th percentile",
+   "25th-50th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03207",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 54)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03212",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does this scan show relatively small hippocampal volumes (below 25th percentile)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03216",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03229",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is there notable hippocampal asymmetry (>10% difference between left and right)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03238",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03244",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03246",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Does this scan show relatively small hippocampal volumes (below 25th percentile)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03254",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 42)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03277",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is there notable hippocampal asymmetry (>10% difference between left and right)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03306",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03307",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 54)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03308",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "50-59",
+  "options": [
+   "50-59",
+   "70-80",
+   "29-39",
+   "60-69"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03314",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03335",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "50th-75th percentile",
+  "options": [
+   "Below 25th percentile",
+   "50th-75th percentile",
+   "Above 75th percentile",
+   "25th-50th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03345",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03347",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "50th-75th percentile",
+  "options": [
+   "Below 25th percentile",
+   "50th-75th percentile",
+   "Above 75th percentile",
+   "25th-50th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03351",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Better than expected — older age with preserved hippocampal volume",
+  "options": [
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03361",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject older than 55 years old?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03366",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03368",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03369",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Unexpected — younger age with smaller hippocampal volume",
+  "options": [
+   "Unexpected — younger age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Age-appropriate — younger age with larger hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03383",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03385",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Presence",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is there notable hippocampal asymmetry (>10% difference between left and right)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03388",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Right hippocampus",
+  "options": [
+   "Left hippocampus",
+   "Right hippocampus",
+   "Cannot be determined",
+   "They are equal"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03390",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the right hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03392",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "In which quartile does the total hippocampal volume fall?",
+  "answer": "50th-75th percentile",
+  "options": [
+   "25th-50th percentile",
+   "Above 75th percentile",
+   "Below 25th percentile",
+   "50th-75th percentile"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03393",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Location",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which hippocampus appears larger in this scan?",
+  "answer": "Left hippocampus",
+  "options": [
+   "Left hippocampus",
+   "Cannot be determined",
+   "Right hippocampus",
+   "They are equal"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03407",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the estimated age range of this subject?",
+  "answer": "40-49",
+  "options": [
+   "70-80",
+   "40-49",
+   "60-69",
+   "29-39"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03415",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the hippocampal volume consistent with what would be expected for this subject's age (subject age: 53)?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03417",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "Which pattern best describes the relationship between this subject's age and hippocampal volume?",
+  "answer": "Age-appropriate — younger age with larger hippocampal volume",
+  "options": [
+   "Age-appropriate — younger age with larger hippocampal volume",
+   "Age-appropriate — older age with smaller hippocampal volume",
+   "Better than expected — older age with preserved hippocampal volume",
+   "Unexpected — younger age with smaller hippocampal volume"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03419",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the total hippocampal volume above the population median (3.37 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03432",
+  "dataset": "CC359",
+  "image_required": false,
+  "category": "Demographic",
+  "image_dependency": "image-informed",
+  "question_type": "YN",
+  "question": "Is this subject female?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "CC359-03434",
+  "dataset": "CC359",
+  "image_required": true,
+  "category": "Anatomy",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Is the left hippocampal volume above the population median (3.25 mL)?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": false,
+  "human_assessable_note": "Requires population-specific volumetric norms",
+  "split": "val",
+  "tier": "public"
+ }
+]

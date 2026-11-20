@@ -1,0 +1,392 @@
+[
+ {
+  "neuroqa_id": "WMH-00006",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Do the white matter lesions appear hypointense on the T1-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00009",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the T1 signal intensity of the white matter lesions?",
+  "answer": "isointense",
+  "options": [
+   "hyperintense",
+   "mixed",
+   "isointense",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00026",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Diagnosis",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the most likely diagnosis?",
+  "answer": "infarction",
+  "options": [
+   "white matter hyperintensities",
+   "infarction",
+   "gliosis",
+   "normal aging changes"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00030",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Diagnosis",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the most likely diagnosis?",
+  "answer": "white matter hyperintensities",
+  "options": [
+   "gliosis",
+   "white matter hyperintensities",
+   "infarction",
+   "normal aging changes"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00032",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the T1 signal intensity of the white matter lesions?",
+  "answer": "hypointense",
+  "options": [
+   "hyperintense",
+   "mixed",
+   "isointense",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00055",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Do the white matter lesions appear hypointense on the T1-weighted imaging scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00067",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the T1 signal intensity of the white matter lesions?",
+  "answer": "isointense",
+  "options": [
+   "mixed",
+   "hyperintense",
+   "isointense",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00077",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the T1 signal intensity of the white matter lesions?",
+  "answer": "isointense",
+  "options": [
+   "isointense",
+   "mixed",
+   "hyperintense",
+   "hypointense"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00079",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Do the white matter lesions appear hypointense on the T1-weighted imaging scan?",
+  "answer": "Yes",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00084",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: periventricular distribution, signal characteristics on T1.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00096",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: periventricular distribution, signal characteristics on T1, lacunar infarcts.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00097",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "YN",
+  "question": "Do the white matter lesions appear hypointense on the T1-weighted imaging scan?",
+  "answer": "No",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00109",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Diagnosis",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the most likely diagnosis?",
+  "answer": "infarction",
+  "options": [
+   "gliosis",
+   "infarction",
+   "normal aging changes",
+   "white matter hyperintensities"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00121",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the T1 signal intensity of the white matter lesions?",
+  "answer": "isointense",
+  "options": [
+   "hyperintense",
+   "mixed",
+   "hypointense",
+   "isointense"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00132",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: periventricular distribution, signal characteristics on T1.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00133",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: periventricular distribution, signal characteristics on T1, lacunar infarcts.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00144",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Signal",
+  "image_dependency": "image-grounded",
+  "question_type": "MCQ",
+  "question": "What is the T1 signal intensity of the white matter lesions?",
+  "answer": "hypointense",
+  "options": [
+   "hypointense",
+   "isointense",
+   "hyperintense",
+   "mixed"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00149",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: periventricular distribution, signal characteristics on T1.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00174",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Diagnosis",
+  "image_dependency": "image-informed",
+  "question_type": "MCQ",
+  "question": "What is the most likely diagnosis?",
+  "answer": "infarction",
+  "options": [
+   "normal aging changes",
+   "gliosis",
+   "infarction",
+   "white matter hyperintensities"
+  ],
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ },
+ {
+  "neuroqa_id": "WMH-00178",
+  "dataset": "WMH",
+  "image_required": true,
+  "category": "Reasoning",
+  "image_dependency": "image-informed",
+  "question_type": "Open",
+  "question": "What imaging features support the subject's likely diagnosis?",
+  "answer": "Key imaging features include: periventricular distribution, signal characteristics on T1, lacunar infarcts.",
+  "options": null,
+  "answerable_modalities": [
+   "T1w"
+  ],
+  "human_assessable": true,
+  "split": "val",
+  "tier": "public"
+ }
+]
